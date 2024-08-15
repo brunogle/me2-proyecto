@@ -1,0 +1,13 @@
+2024-08-14 21:47:49   Build version: 2024.1 Release from 2023-10-16 (change 1181985)
+
+2024-08-14 21:47:49    Task: SPara1
+                      ----------------------------------------------------------------------
+2024-08-14 21:47:49   Tolerance Settings:
+                      	Relative tolerance on error current: 1e-06.
+
+2024-08-14 21:47:49   The broadband frequency sweep is more expensive than direct S-Parameter calculation. The sweep is therefore abandoned and direct calculation is applied. Please consider switching off the broadband sweep in the Broadband sweep settings frame of the General tab of the Solver Specials dialog.  <a href="1422.htm">More...</a>
+2024-08-14 21:47:49    Task time:                         0 sec
+2024-08-14 21:47:49   
+                      ======================================================================
+
+2024-08-14 21:47:49    Total time:                        0 sec

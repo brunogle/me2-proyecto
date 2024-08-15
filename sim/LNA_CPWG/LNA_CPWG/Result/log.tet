@@ -1,0 +1,246 @@
+[16:18:01] -------- TetMesher Log --------
+[16:18:01] Build Number: 20230901; ID: 2024.0 Release from 2023-09-01 (change 1164796); Date: 2023-09-01; ACIS version: 33.0.1, SPAresabs & SPAresnor: 1e-06, 1e-10; Problem class: High Frequency
+[16:18:01] Temporary directory: "D:\local\utn\me2\LNA_CPWG\LNA_CPWG\Temp\1-temp.tet"
+[16:18:01] - Reading information
+[16:18:01] - Building single body
+[16:18:01] Found 610 faces.
+[16:18:01] Choosing Advanced Boolean Loop...
+[16:18:01] Volume Attributes disabled
+[16:18:01] Sorted out 20 special bodies.
+[16:18:01] Processing 104 entities.
+[16:18:01] Queue Size: 1
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:01_TOP_LAYER and solid ME2_LNA(PCB1)/Nets/GND:03_BOTTOM_LAYER (Pair #1 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/VCC:03_BOTTOM_LAYER and sheet ME2_LNA(PCB1)/PEC Sheets:leads (Pair #2 out of 52)
+[16:18:01] Combining sheet ME2_LNA(PCB1)/PEC Sheets:leads and sheet ME2_LNA(PCB1)/PEC Sheets:leads (Pair #3 out of 52)
+[16:18:01] Combining sheet ME2_LNA(PCB1)/PEC Sheets:leads and sheet ME2_LNA(PCB1)/PEC Sheets:leads (Pair #4 out of 52)
+[16:18:01] Combining sheet ME2_LNA(PCB1)/PEC Sheets:leads and sheet ME2_LNA(PCB1)/PEC Sheets:leads (Pair #5 out of 52)
+[16:18:01] Combining sheet ME2_LNA(PCB1)/PEC Sheets:leads and sheet ME2_LNA(PCB1)/PEC Sheets:leads (Pair #6 out of 52)
+[16:18:01] Combining sheet ME2_LNA(PCB1)/PEC Sheets:PORT_LAYER_0 and sheet ME2_LNA(PCB1)/PEC Sheets:PORT_LAYER_1 (Pair #7 out of 52)
+[16:18:01] Combining sheet ME2_LNA(PCB1)/PEC Sheets:PORT_LAYER_0 and sheet ME2_LNA(PCB1)/PEC Sheets:PORT_LAYER_1 (Pair #8 out of 52)
+[16:18:01] Combining sheet ME2_LNA(PCB1)/PEC Sheets:leads and sheet ME2_LNA(PCB1)/PEC Sheets:leads (Pair #9 out of 52)
+[16:18:01] Combining sheet ME2_LNA(PCB1)/PEC Sheets:leads and sheet ME2_LNA(PCB1)/PEC Sheets:leads (Pair #10 out of 52)
+[16:18:01] Combining sheet ME2_LNA(PCB1)/PEC Sheets:leads and sheet ME2_LNA(PCB1)/PEC Sheets:leads (Pair #11 out of 52)
+[16:18:01] Combining sheet ME2_LNA(PCB1)/PEC Sheets:leads and sheet ME2_LNA(PCB1)/PEC Sheets:leads (Pair #12 out of 52)
+[16:18:01] Combining sheet ME2_LNA(PCB1)/PEC Sheets:leads and sheet ME2_LNA(PCB1)/PEC Sheets:leads (Pair #13 out of 52)
+[16:18:01] Combining sheet ME2_LNA(PCB1)/PEC Sheets:leads and sheet ME2_LNA(PCB1)/PEC Sheets:leads (Pair #14 out of 52)
+[16:18:01] Combining sheet ME2_LNA(PCB1)/PEC Sheets:leads and sheet ME2_LNA(PCB1)/PEC Sheets:leads (Pair #15 out of 52)
+[16:18:01] Combining sheet ME2_LNA(PCB1)/PEC Sheets:leads and sheet ME2_LNA(PCB1)/PEC Sheets:leads (Pair #16 out of 52)
+[16:18:01] Combining sheet ME2_LNA(PCB1)/PEC Sheets:leads and sheet ME2_LNA(PCB1)/PEC Sheets:leads (Pair #17 out of 52)
+[16:18:01] Combining sheet ME2_LNA(PCB1)/PEC Sheets:leads and sheet ME2_LNA(PCB1)/PEC Sheets:leads (Pair #18 out of 52)
+[16:18:01] Combining sheet ME2_LNA(PCB1)/PEC Sheets:leads and sheet ME2_LNA(PCB1)/PEC Sheets:leads (Pair #19 out of 52)
+[16:18:01] Combining sheet ME2_LNA(PCB1)/PEC Sheets:leads and sheet ME2_LNA(PCB1)/PEC Sheets:leads (Pair #20 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and sheet ME2_LNA(PCB1)/PEC Sheets:leads (Pair #21 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and sheet ME2_LNA(PCB1)/PEC Sheets:leads (Pair #22 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/VCC:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #23 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/NETC1_1:01_TOP_LAYER (Pair #24 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/NETC3_2:01_TOP_LAYER (Pair #25 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #26 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #27 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/NETC3_1:01_TOP_LAYER (Pair #28 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #29 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #30 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #31 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #32 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #33 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #34 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #35 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/VCC:01_TOP_LAYER and sheet ME2_LNA(PCB1)/PEC Sheets:leads (Pair #36 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/NETL2_2:01_TOP_LAYER (Pair #37 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/NETC1_2:01_TOP_LAYER and solid ME2_LNA(PCB1)/Nets/NETC6_2:01_TOP_LAYER (Pair #38 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #39 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #40 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #41 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #42 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #43 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #44 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #45 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #46 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #47 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #48 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #49 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Pair #50 out of 52)
+[16:18:01] Combining solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER and solid ME2_LNA(PCB1)/Nets/NETC7_1:01_TOP_LAYER (Pair #51 out of 52)
+[16:18:01] Adding solid ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER to solid ME2_LNA(PCB1)/Substrates:02_DIELECTRIC_1 (Pair #52 out of 52)
+[16:18:01] Processing 52 entities.
+[16:18:01] Queue Size: 1
+[16:18:01] Combining Compound Body and Compound Body (Pair #1 out of 26)
+[16:18:01] Combining Compound Body and Compound Body (Pair #2 out of 26)
+[16:18:01] Combining Compound Body and Compound Body (Pair #3 out of 26)
+[16:18:01] Combining Compound Body and Compound Body (Pair #4 out of 26)
+[16:18:01] Combining Compound Body and Compound Body (Pair #5 out of 26)
+[16:18:01] Combining Compound Body and Compound Body (Pair #6 out of 26)
+[16:18:01] Combining Compound Body and Compound Body (Pair #7 out of 26)
+[16:18:01] Combining Compound Body and Compound Body (Pair #8 out of 26)
+[16:18:01] Combining Compound Body and Compound Body (Pair #9 out of 26)
+[16:18:01] Combining Compound Body and Compound Body (Pair #10 out of 26)
+[16:18:01] Combining Compound Body and Compound Body (Pair #11 out of 26)
+[16:18:01] Combining Compound Body and Compound Body (Pair #12 out of 26)
+[16:18:01] Combining Compound Body and Compound Body (Pair #13 out of 26)
+[16:18:01] Combining Compound Body and Compound Body (Pair #14 out of 26)
+[16:18:01] Combining Compound Body and Compound Body (Pair #15 out of 26)
+[16:18:01] Combining Compound Body and Compound Body (Pair #16 out of 26)
+[16:18:01] Combining Compound Body and Compound Body (Pair #17 out of 26)
+[16:18:01] Combining Compound Body and Compound Body (Pair #18 out of 26)
+[16:18:01] Combining Compound Body and Compound Body (Pair #19 out of 26)
+[16:18:01] Combining Compound Body and Compound Body (Pair #20 out of 26)
+[16:18:01] Combining Compound Body and Compound Body (Pair #21 out of 26)
+[16:18:02] Combining Compound Body and Compound Body (Pair #22 out of 26)
+[16:18:02] Combining Compound Body and Compound Body (Pair #23 out of 26)
+[16:18:02] Combining Compound Body and Compound Body (Pair #24 out of 26)
+[16:18:02] Adding Compound Body to Compound Body (Pair #25 out of 26)
+[16:18:02] Adding Compound Body to Compound Body (Pair #26 out of 26)
+[16:18:02] Processing 26 entities.
+[16:18:02] Queue Size: 1
+[16:18:02] Combining Compound Body and Compound Body (Pair #1 out of 13)
+[16:18:02] Combining Compound Body and Compound Body (Pair #2 out of 13)
+[16:18:02] Combining Compound Body and Compound Body (Pair #3 out of 13)
+[16:18:02] Combining Compound Body and Compound Body (Pair #4 out of 13)
+[16:18:02] Combining Compound Body and Compound Body (Pair #5 out of 13)
+[16:18:02] Combining Compound Body and Compound Body (Pair #6 out of 13)
+[16:18:02] Combining Compound Body and Compound Body (Pair #7 out of 13)
+[16:18:02] Combining Compound Body and Compound Body (Pair #8 out of 13)
+[16:18:02] Combining Compound Body and Compound Body (Pair #9 out of 13)
+[16:18:02] Combining Compound Body and Compound Body (Pair #10 out of 13)
+[16:18:02] Combining Compound Body and Compound Body (Pair #11 out of 13)
+[16:18:02] Adding Compound Body to Compound Body (Pair #12 out of 13)
+[16:18:02] Adding Compound Body to Compound Body (Pair #13 out of 13)
+[16:18:02] Processing 13 entities.
+[16:18:02] Queue Size: 1
+[16:18:02] Combining Compound Body and Compound Body (Pair #1 out of 6)
+[16:18:02] Combining Compound Body and Compound Body (Pair #2 out of 6)
+[16:18:02] Combining Compound Body and Compound Body (Pair #3 out of 6)
+[16:18:02] Combining Compound Body and Compound Body (Pair #4 out of 6)
+[16:18:02] Combining Compound Body and Compound Body (Pair #5 out of 6)
+[16:18:02] Adding Compound Body to Compound Body (Pair #6 out of 6)
+[16:18:02] Processing 7 entities.
+[16:18:02] Queue Size: 1
+[16:18:02] Combining Compound Body and Compound Body (Pair #1 out of 3)
+[16:18:02] Combining Compound Body and Compound Body (Pair #2 out of 3)
+[16:18:02] Adding Compound Body to Compound Body (Pair #3 out of 3)
+[16:18:02] Processing 4 entities.
+[16:18:02] Queue Size: 1
+[16:18:02] Adding Compound Body to Compound Body (Pair #1 out of 2)
+[16:18:02] Adding Compound Body to Compound Body (Pair #2 out of 2)
+[16:18:02] Processing 2 entities.
+[16:18:02] Queue Size: 1
+[16:18:02] Adding Compound Body to Compound Body (Pair #1 out of 1)
+[16:18:02] Exiting Boolean Unite Module.
+[16:18:02] Added Compound Body (ID: 975, 967, 2688, 2708, 1804, 1055, 1023, 1047, 3038, 3028, 3008, 3018, 1031, 1007, 1063, 1095, 1175, 1151, 2611, 2828, 2998, 2988, 2768, 2778, 1263, 1231, 1271, 1375, 3048, 1191, 1450, 1981, 1119, 1087, 1079, 1103, 1621, 1135, 1159, 1183, 2958, 2948, 2928, 2938, 2738, 2728, 2524, 2838, 2758, 2748, 2968, 2978, 3058, 2818, 1215, 2808, 1359, 1311, 2888, 2908, 2918, 2898, 1279, 1327, 1111, 1071, 1367, 2626, 2798, 2788, 1295, 2176, 999, 983, 2858, 2878, 2868, 2848, 991, 1015, 1247, 1199, 1143, 1167, 3078, 3068, 1223, 1239, 1351, 1343, 1287, 1335, 2407, 1127, 1207, 1255, 2718, 2698, 1, 928, 1319, 1303, 1039, 2634) to model
+[16:18:02] Added background material (ID: 2661) to model
+[16:18:02] Added wire ME2_LNA(PCB1):Q1-2 (ID: 3248) to model
+[16:18:02] Added face lumped element ME2_LNA(PCB1):C1 (ID: 3088) to model
+[16:18:02] Added face lumped element ME2_LNA(PCB1):C2 (ID: 3098) to model
+[16:18:02] Added face lumped element ME2_LNA(PCB1):C3 (ID: 3108) to model
+[16:18:02] Added face lumped element ME2_LNA(PCB1):C4 (ID: 3118) to model
+[16:18:02] Added face lumped element ME2_LNA(PCB1):C5 (ID: 3128) to model
+[16:18:02] Added face lumped element ME2_LNA(PCB1):C6 (ID: 3138) to model
+[16:18:02] Added face lumped element ME2_LNA(PCB1):C7 (ID: 3148) to model
+[16:18:02] Added face lumped element ME2_LNA(PCB1):C8 (ID: 3158) to model
+[16:18:02] Added face lumped element ME2_LNA(PCB1):J3 (ID: 3168) to model
+[16:18:02] Added face lumped element ME2_LNA(PCB1):L1 (ID: 3178) to model
+[16:18:02] Added face lumped element ME2_LNA(PCB1):L2 (ID: 3188) to model
+[16:18:02] Added face lumped element ME2_LNA(PCB1):R1 (ID: 3198) to model
+[16:18:02] Added face lumped element ME2_LNA(PCB1):R2 (ID: 3208) to model
+[16:18:02] Added face lumped element ME2_LNA(PCB1):R3 (ID: 3218) to model
+[16:18:02] Added face port 1 (ID: 3228) to model
+[16:18:02] Added face port 2 (ID: 3238) to model
+[16:18:02] Added discrete port 3 (ID: 3258) to model
+[16:18:02] Added discrete port 4 (ID: 3262) to model
+[16:18:03] - Storing model cells
+[16:18:03] [CADSurf] - Mesh sizes: global mesh size near to model = 5.8784002319726243e+00
+              min requested = 1.0000000000000003e-01
+              max requested = 5.4357280382750453e+01
+[16:18:03] [CADSurf] MeshGems Version: MeshGems-Core 2.15-1
+[16:18:03] [CADSurf] === Begin: PreCAD-related parameters ===
+[16:18:03] [CADSurf] == CADSurf Parameters == 
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "use_precad",  "yes")
+[16:18:03] [CADSurf] Bounding box diagonal = 7.9829540496514497e+01
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "remove_nano_edges",  "0")
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "discard_input_topology",  "0")
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "process_3d_topology",  "0")
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "discard_input_2d_topology",  "0")
+[16:18:03] [CADSurf] Default periodic tolerance (1e-4*diag) = 7.9829540496514501e-03
+[16:18:03] [CADSurf] Minimum periodic tolerance = 1.0000000000000001e-05
+[16:18:03] [CADSurf] Setting it to max( 1.0000000000000001e-05, 7.9829540496514501e-03 )
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "periodic_tolerance",  "0.0079829540496514501")
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "remove_duplicate_cad_faces",  "0")
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "remove_tiny_uv_edges",  "0")
+[16:18:03] [CADSurf] === End: PreCAD-related parameters ===
+[16:18:03] [CADSurf] ==
+[16:18:03] [CADSurf] == CADSurf Parameters == 
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "verbose",  "3")
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "geometric_size_mode",  "local")
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "physical_size_mode",  "local")
+[16:18:03] [CADSurf] 	 Max user size    = 5.4357280382750453e+01
+[16:18:03] [CADSurf] 	 Global size near = 5.8784002319726243e+00
+[16:18:03] [CADSurf] 	 Global size far  = 5.4357280382750453e+01
+[16:18:03] [CADSurf] 	 Upper size bound = 5.4357280382750453e+01
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "max_size",  "54.357280382750453")
+[16:18:03] [CADSurf] 	Calculating min. mesh size for CADSurf...
+[16:18:03] [CADSurf] 	Diagonal of model + background box: 7.9829540496514497e+01
+[16:18:03] [CADSurf] 	Min. mesh size by diagonal (1e-3 x diagonal): 7.9829540496514501e-02
+[16:18:03] [CADSurf] 	Diagonal of model: 6.5555437921398962e+01
+[16:18:03] [CADSurf] 	Min. mesh size of model: 1.0000000000000003e-01
+[16:18:03] [CADSurf] 	Max. cell defined by user (near to model): 5.8784002319726243e+00
+[16:18:03] [CADSurf] 	Min. cell defined by user: 0.0000000000000000e+00
+[16:18:03] [CADSurf] 	Min. cell used for calculation: 5.8784002319726247e-02
+[16:18:03] [CADSurf] 	Note: min. mesh size by diagonal is too large, consider using (0.01 x max. cell = 5.8784002319726240e-02)
+[16:18:03] [CADSurf] Geometric refinement uses "min_size" setting.
+[16:18:03] [CADSurf] CADSurf "min_size" is set to min. cell: 5.8784002319726247e-02
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "min_size",  "0.058784002319726247")
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "max_number_of_points_per_patch",  "0")
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "element_generation",  "local")
+[16:18:03] [CADSurf] Setting Triangle as default element type
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "gradation",  "3")
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "volume_gradation",  "3")
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "patch_independent",  "0")
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "remove_tiny_edges",  "0")
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "optimise_tiny_edges",  "0")
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "tiny_edge_respect_geometry",  "1")
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "CheckWellDefined",  "8")
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "anisotropic",  "1")
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "anisotropic_ratio",  "5")
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "correct_surface_intersections",  "1")
+[16:18:03] [CADSurf] meshgems_cadsurf_set_param(css, "intersection_processing_max_cost",  "15")
+[16:18:03] [CADSurf] ==
+[16:18:04] [CADSurf] Status: OK
+[16:18:04] [CADSurf] Number of intersecting edges: 0, total edge count: 3419
+[16:18:04] [CADSurf] Number of intersecting faces: 0
+[16:18:04] [CADSurf] - Mesh stats: N=4128, E=3419, T=10751, Q=0
+[16:18:04] [CADSurf] Testing watertightness
+[16:18:04] [CADSurf] - OK
+[16:18:04] Creating volume mesh from surface mesh
+[16:18:04] [SrfToVol] Volume meshing: 4 threads will be allocated
+[16:18:04] [SrfToVol] Running CVM
+[16:18:04] [SrfToVol] Surface to volume mesh: verifying input data
+[16:18:04] [SrfToVol] Not meshed regions = 3457 3458 3459 3460 3461 3462 3463 3464 3465 3466 3467 3468 3469 3470 3471 3472 3473 3474 3475 3476 3477 3478 3479 3480 3481 3482 3483 3484 3485 3486 3487 3488 3489 3490 3491 3492 3493 3494 3495 3496 3497 3498 3499 3500 3501 3502 3503 3504 3505 3506 3507 3508 3509 3510 3511 3512 3513 3514 3515 3516 3517 3518 3519 3520 3521 3522 3523 3524 3525 3526 3527 3528 3529 3530 3531 3532 3533 3534 3535 3536 3537 3538 3539 3540 3541 3542 3543 3544 3545 3546 3547 3548 3549 3550 3551 3552 3553 3554 3555 3556 3557 3558 3559 3560 3561 3562 3563 3564 3565 3566 3567 3568 3569 3570 3571 3572 3573 3574 3575 3576 3577 3578 3579 3580 3581 3582 3583 3584 3585 3586 3587 3588 3589 3590 3591 3592 3593 3594 3595 3596 3597 3598 3599 3600 3601 3602 3603 3604 3605 3606 3607 3608 3609 3610 3611 3612 3613 3614 3615 3616 3617 3618 3619 3620 3621 3622 3623 
+
+[16:18:04] [SrfToVol] Generate volume mesh for 2 subdomains using 4 threads 
+ 
+[16:18:05] [SrfToVol] Assembling volume mesh
+[16:18:05] [SrfToVol] Volume mesh generated - Status = ok
+[16:18:05] [SrfToVol] - Volume mesh stats: Nb nodes = 4833, Nb edges = 3419, Nb surface elements = 8911, Nb tets = 17280
+[16:18:05] Creating mesh topology.
+[16:18:05] Using mesh topology.
+[16:18:05] Writing ACIS sat.tet file because UIDs may have changed.
+[16:18:06] Using generalized mesh output routines.
+[16:18:06] Writing Bc file
+[16:18:06] Running model geometry simplification... 
+[16:18:06] Model geometry simplification: 0 seconds
+[16:18:06] Writing topot.tet...
+[16:18:06] Done (topot.tet)
+[16:18:06] Writing moegeom.tet ...
+[16:18:06] Done (moegeom.tet) 
+[16:18:06] Creating volume mesh from surface mesh - done
+[16:18:06] Writing gex file for volume mesh
+[16:18:06] Mesh curving:
+[16:18:06]     available cores:   4
+[16:18:06]     number of threads: 4
+[16:18:06] Curving elements
+[16:18:06]  Curve elements, order = 3
+
+[16:18:07] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[16:18:07] Done

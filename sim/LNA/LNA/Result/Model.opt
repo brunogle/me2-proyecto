@@ -1,0 +1,936 @@
+2024-08-05 17:53:07   Optimizer Settings:
+
+                      Optimizer type: Nelder Mead Simplex Algorithm
+                      		Goal function level: 0.0
+                      		Minimal Simplex size: 1e-06
+
+                      		Strategy for starting values:	Noisy Latin Hypercube Sampling
+                      		External random seed: 1
+                      		Predefined anchor is included in set of starting values.
+
+                      ---------------------------------------------------------------------------------------
+
+                      Parameters used for optimization:
+                      ---------------------------------------------------------------------------------------
+                      | name                    |          min |          max |      initial |
+                      ---------------------------------------------------------------------------------------
+                      | C2                      |            1 |           10 |      3.34954 |
+                      | L1                      |            5 |           20 |       7.7972 |
+                      ---------------------------------------------------------------------------------------
+
+                      Goal functionals used for optimization:
+
+                      1DC: 1D Results\S-Parameters\S3,3: operate by "=" with target 0.295 in range: 1000, weighted: 360
+                      1DC: 1D Results\S-Parameters\S3,3: operate by "=" with target -154 in range: 1000, weighted: 1.0
+2024-08-05 17:53:07   
+                      ________________________________________________________________________
+
+                      An error occurred during optimizers attempt to import parametric data of previous calculations. No parametric data will be imported. 
+
+2024-08-05 17:55:49   
+                      ________________________________________________________________________
+
+                      Optimizer is creating a backup of the project including results.
+
+
+
+2024-08-05 17:55:52   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.34954
+                      	L1 = 7.7972
+
+
+                      Created complete backup of the project. (2.047 sec)
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 16.5066 (Solver)
+                      	Last goal function value   = 16.5066 (Solver)
+
+                      	Solver time = 00:02:40 h
+                      	Parameter update time = 00:00:02 h
+2024-08-05 18:04:12   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 8.09864
+                      	L1 = 14.5951
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 16.5066 (Solver)
+                      	Last goal function value   = 509.859 (Solver)
+
+                      	Solver time = 00:08:17 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 18:18:34   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 8.05466
+                      	L1 = 18.1161
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 16.5066 (Solver)
+                      	Last goal function value   = 509.846 (Solver)
+
+                      	Solver time = 00:14:19 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 18:22:10   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.30556
+                      	L1 = 11.3182
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 16.5066 (Solver)
+                      	Last goal function value   = 28.5063 (Solver)
+
+                      	Solver time = 00:03:32 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 18:25:09   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 1
+                      	L1 = 5
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 16.5066 (Solver)
+                      	Last goal function value   = 236.521 (Solver)
+
+                      	Solver time = 00:02:56 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 18:28:15   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 5.69111
+                      	L1 = 13.8369
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 16.5066 (Solver)
+                      	Last goal function value   = 474.223 (Solver)
+
+                      	Solver time = 00:03:04 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 18:31:47   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.32755
+                      	L1 = 9.55772
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 16.5066 (Solver)
+                      	Last goal function value   = 18.2977 (Solver)
+
+                      	Solver time = 00:03:28 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 18:35:31   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 4.52032
+                      	L1 = 10.8171
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 16.5066 (Solver)
+                      	Last goal function value   = 103.413 (Solver)
+
+                      	Solver time = 00:03:41 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 18:38:22   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 2.15677
+                      	L1 = 6.53786
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 16.5066 (Solver)
+                      	Last goal function value   = 356.822 (Solver)
+
+                      	Solver time = 00:02:47 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 18:40:55   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 2.74766
+                      	L1 = 7.60766
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 16.5066 (Solver)
+                      	Last goal function value   = 65.8121 (Solver)
+
+                      	Solver time = 00:02:30 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 18:44:12   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.92944
+                      	L1 = 9.74726
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 16.5066 (Solver)
+                      	Last goal function value   = 60.3224 (Solver)
+
+                      	Solver time = 00:03:15 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 18:47:16   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.0431
+                      	L1 = 8.14256
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 16.5066 (Solver)
+                      	Last goal function value   = 35.3557 (Solver)
+
+                      	Solver time = 00:03:01 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 18:51:29   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.63399
+                      	L1 = 9.21236
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 16.5066 (Solver)
+                      	Last goal function value   = 37.5431 (Solver)
+
+                      	Solver time = 00:04:10 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 18:56:21   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.48627
+                      	L1 = 8.94491
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 16.5066 (Solver)
+                      	Last goal function value   = 26.4532 (Solver)
+
+                      	Solver time = 00:04:49 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 18:59:17   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.19083
+                      	L1 = 8.41001
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 16.5066 (Solver)
+                      	Last goal function value   = 23.0084 (Solver)
+
+                      	Solver time = 00:02:53 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 19:04:10   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.41241
+                      	L1 = 8.81118
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 16.5066 (Solver)
+                      	Last goal function value   = 20.4337 (Solver)
+
+                      	Solver time = 00:04:50 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 19:07:33   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.26469
+                      	L1 = 8.54373
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 16.5066 (Solver)
+                      	Last goal function value   = 17.5992 (Solver)
+
+                      	Solver time = 00:03:20 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 19:11:09   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.28668
+                      	L1 = 6.78322
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 16.5066 (Solver)
+                      	Last goal function value   = 32.6453 (Solver)
+
+                      	Solver time = 00:03:33 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 19:14:21   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.2969
+                      	L1 = 7.47684
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 16.5066 (Solver)
+                      	Last goal function value   = 23.5704 (Solver)
+
+                      	Solver time = 00:03:09 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 19:17:35   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.31733
+                      	L1 = 8.86409
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 16.5066 (Solver)
+                      	Last goal function value   = 21.0504 (Solver)
+
+                      	Solver time = 00:03:12 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 19:19:58   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.30201
+                      	L1 = 7.82366
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 16.5066 (Solver)
+                      	Last goal function value   = 19.2895 (Solver)
+
+                      	Solver time = 00:02:20 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 19:23:35   
+                      ________________________________________________________________________
+
+                      Optimizer is creating a backup of the project including results.
+
+
+
+2024-08-05 19:23:37   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.31223
+                      	L1 = 8.51728
+
+
+                      Created complete backup of the project. (1.609 sec)
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 14.4441 (Solver)
+                      	Last goal function value   = 14.4441 (Solver)
+
+                      	Solver time = 00:03:34 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 19:26:47   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.31733
+                      	L1 = 8.86409
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 14.4441 (Solver)
+                      	Last goal function value   = 21.0504 (Solver)
+
+                      	Solver time = 00:03:08 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 19:29:59   
+                      ________________________________________________________________________
+
+                      Optimizer is creating a backup of the project including results.
+
+
+
+2024-08-05 19:30:01   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.39708
+                      	L1 = 7.77075
+
+
+                      Created complete backup of the project. (1.812 sec)
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 13.3888 (Solver)
+                      	Last goal function value   = 13.3888 (Solver)
+
+                      	Solver time = 00:03:09 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 19:33:33   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.46328
+                      	L1 = 7.38425
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 13.3888 (Solver)
+                      	Last goal function value   = 14.5621 (Solver)
+
+                      	Solver time = 00:03:29 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 19:37:17   
+                      ________________________________________________________________________
+
+                      Optimizer is creating a backup of the project including results.
+
+
+
+2024-08-05 19:37:19   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.35976
+                      	L1 = 8.49083
+
+
+                      Created complete backup of the project. (1.844 sec)
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 12.6965 (Solver)
+                      	Last goal function value   = 12.6965 (Solver)
+
+                      	Solver time = 00:03:41 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 19:42:18   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.36487
+                      	L1 = 8.83764
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 12.6965 (Solver)
+                      	Last goal function value   = 17.5075 (Solver)
+
+                      	Solver time = 00:04:56 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 19:45:07   
+                      ________________________________________________________________________
+
+                      Optimizer is creating a backup of the project including results.
+
+
+
+2024-08-05 19:45:08   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.44462
+                      	L1 = 7.74429
+
+
+                      Created complete backup of the project. (1.61 sec)
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.9698 (Solver)
+                      	Last goal function value   = 10.9698 (Solver)
+
+                      	Solver time = 00:02:46 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 19:48:54   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.51082
+                      	L1 = 7.3578
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.9698 (Solver)
+                      	Last goal function value   = 12.3103 (Solver)
+
+                      	Solver time = 00:03:43 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 19:53:01   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.4073
+                      	L1 = 8.46437
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.9698 (Solver)
+                      	Last goal function value   = 14.8401 (Solver)
+
+                      	Solver time = 00:04:04 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 19:56:50   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.40475
+                      	L1 = 8.29097
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.9698 (Solver)
+                      	Last goal function value   = 13.1818 (Solver)
+
+                      	Solver time = 00:03:46 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 20:00:39   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.39964
+                      	L1 = 7.94415
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.9698 (Solver)
+                      	Last goal function value   = 12.1345 (Solver)
+
+                      	Solver time = 00:03:46 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 20:04:09   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.48449
+                      	L1 = 7.19762
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.9698 (Solver)
+                      	Last goal function value   = 14.0086 (Solver)
+
+                      	Solver time = 00:03:27 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 20:08:03   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.45331
+                      	L1 = 7.52092
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.9698 (Solver)
+                      	Last goal function value   = 12.8899 (Solver)
+
+                      	Solver time = 00:03:52 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 20:11:15   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.39095
+                      	L1 = 8.16752
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.9698 (Solver)
+                      	Last goal function value   = 11.8484 (Solver)
+
+                      	Solver time = 00:03:08 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 20:14:33   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.43593
+                      	L1 = 7.96766
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.9698 (Solver)
+                      	Last goal function value   = 12.5083 (Solver)
+
+                      	Solver time = 00:03:15 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 20:17:50   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.42686
+                      	L1 = 7.96179
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.9698 (Solver)
+                      	Last goal function value   = 11.8482 (Solver)
+
+                      	Solver time = 00:03:15 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 20:20:53   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.48053
+                      	L1 = 7.53855
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.9698 (Solver)
+                      	Last goal function value   = 11.9381 (Solver)
+
+                      	Solver time = 00:03:00 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 20:23:51   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.45813
+                      	L1 = 7.6958
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.9698 (Solver)
+                      	Last goal function value   = 11.3882 (Solver)
+
+                      	Solver time = 00:02:54 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 20:28:06   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.4759
+                      	L1 = 7.4783
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.9698 (Solver)
+                      	Last goal function value   = 11.7643 (Solver)
+
+                      	Solver time = 00:04:12 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 20:31:02   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.43912
+                      	L1 = 7.84092
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.9698 (Solver)
+                      	Last goal function value   = 11.4348 (Solver)
+
+                      	Solver time = 00:02:54 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 20:34:21   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.46364
+                      	L1 = 7.59917
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.9698 (Solver)
+                      	Last goal function value   = 11.671 (Solver)
+
+                      	Solver time = 00:03:16 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 20:37:16   
+                      ________________________________________________________________________
+
+                      Optimizer is creating a backup of the project including results.
+
+
+
+2024-08-05 20:37:18   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.45751
+                      	L1 = 7.65961
+
+
+                      Created complete backup of the project. (1.812 sec)
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.9124 (Solver)
+                      	Last goal function value   = 10.9124 (Solver)
+
+                      	Solver time = 00:02:52 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 20:40:25   
+                      ________________________________________________________________________
+
+                      Optimizer is creating a backup of the project including results.
+
+
+
+2024-08-05 20:40:27   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.44399
+                      	L1 = 7.70811
+
+
+                      Created complete backup of the project. (1.672 sec)
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.8258 (Solver)
+                      	Last goal function value   = 10.8258 (Solver)
+
+                      	Solver time = 00:03:04 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 20:42:25   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.43692
+                      	L1 = 7.71426
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.8258 (Solver)
+                      	Last goal function value   = 12.0705 (Solver)
+
+                      	Solver time = 00:01:55 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 20:47:00   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.45688
+                      	L1 = 7.62342
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.8258 (Solver)
+                      	Last goal function value   = 11.8988 (Solver)
+
+                      	Solver time = 00:04:32 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 20:50:33   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.45382
+                      	L1 = 7.65364
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.8258 (Solver)
+                      	Last goal function value   = 11.6017 (Solver)
+
+                      	Solver time = 00:03:29 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 20:53:35   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.44768
+                      	L1 = 7.71408
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.8258 (Solver)
+                      	Last goal function value   = 10.8662 (Solver)
+
+                      	Solver time = 00:02:60 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 20:56:25   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.43417
+                      	L1 = 7.76257
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.8258 (Solver)
+                      	Last goal function value   = 11.1117 (Solver)
+
+                      	Solver time = 00:02:47 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 20:59:30   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.44
+                      	L1 = 7.73683
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.8258 (Solver)
+                      	Last goal function value   = 10.8315 (Solver)
+
+                      	Solver time = 00:03:02 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 21:02:39   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.43631
+                      	L1 = 7.73086
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.8258 (Solver)
+                      	Last goal function value   = 11.1299 (Solver)
+
+                      	Solver time = 00:03:06 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 21:05:44   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.43916
+                      	L1 = 7.72666
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.8258 (Solver)
+                      	Last goal function value   = 10.9792 (Solver)
+
+                      	Solver time = 00:03:03 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 21:08:52   
+                      ________________________________________________________________________
+
+                      Optimizer is creating a backup of the project including results.
+
+
+
+2024-08-05 21:08:53   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.44484
+                      	L1 = 7.71827
+
+
+                      Created complete backup of the project. (1.578 sec)
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.678 (Solver)
+                      	Last goal function value   = 10.678 (Solver)
+
+                      	Solver time = 00:03:04 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 21:11:54   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.44768
+                      	L1 = 7.71408
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.678 (Solver)
+                      	Last goal function value   = 10.8662 (Solver)
+
+                      	Solver time = 00:02:58 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 21:14:57   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.44883
+                      	L1 = 7.68955
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.678 (Solver)
+                      	Last goal function value   = 10.8604 (Solver)
+
+                      	Solver time = 00:03:00 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 21:17:59   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.44662
+                      	L1 = 7.70137
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.678 (Solver)
+                      	Last goal function value   = 10.7123 (Solver)
+
+                      	Solver time = 00:02:59 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 21:20:57   
+                      ________________________________________________________________________
+
+                      Solved problem for parameters:
+
+                      	C2 = 3.44747
+                      	L1 = 7.71153
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.678 (Solver)
+                      	Last goal function value   = 10.8275 (Solver)
+
+                      	Solver time = 00:02:55 h
+                      	Parameter update time = 00:00:03 h
+2024-08-05 21:21:30   
+                      ========================================================================
+
+                      Recovered data for best parameters:
+
+                      	C2 = 3.44484
+                      	L1 = 7.71827
+
+
+                      Result data recovered from project backup.
+
+                      	Initial goal function value  = 16.5066 (Solver)
+                      	Best goal function value   = 10.678 (Solver)
+                      	Last goal function value   = 10.678 (Solver)
+2024-08-05 21:21:30   
+                      ________________________________________________________________________
+
+
+2024-08-05 21:21:30   	Total solver time           = 03:24:50 h (57 solver runs)
+                      	Total data recovery time    = 00:00:03 h (1 loaded)
+                      	Total parameter update time = 00:02:48 h
+                      	Total backup project time   = 00:00:14 h (8 backups)
+                      	Total optimizer time        = 03:28:23 h (58 evaluations)
+
+2024-08-05 21:21:30   
+                      ________________________________________________________________________
+
+                      Optimization aborted with improved goal value. Best parameter set is stored.
+

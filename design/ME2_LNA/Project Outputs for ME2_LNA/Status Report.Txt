@@ -1,0 +1,26 @@
+Output: ODB++ Files
+Type  : ODB
+From  : Variant [[No Variations]] of Project [ME2_LNA.PrjPcb]
+   Generated File[profile]
+   Generated File[stephdr]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[tools]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[components]
+   Generated File[data]
+   Generated File[netlist]
+   Generated File[matrix]
+   Generated File[ME2_LNA.REP]
+
+
+Files Generated   : 17
+Documents Printed : 0
+
+Finished Output Generation At 8:11:45 AM On 8/9/2024

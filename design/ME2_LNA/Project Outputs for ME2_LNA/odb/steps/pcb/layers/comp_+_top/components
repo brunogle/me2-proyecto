@@ -1,0 +1,428 @@
+UNITS=MM
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+
+# CMP 0
+CMP 6 115.40000034 80.59999882 180 N J3 S2B-PH-K-S(LF)(SN) ;0=2,1=4.8000
+PRP Capacitance '10 uF'
+PRP Case\Package 'Radial'
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://www.jst-mfg.com/product/pdf/eng/ePH.pdf'
+PRP DatasheetVersion 'Dec-12'
+PRP Diameter '5 mm'
+PRP Height '11 mm'
+PRP Lead_Pitch '2 mm'
+PRP Length '11 mm'
+PRP Max_Operating_Temperature '85 degC'
+PRP Min_Operating_Temperature '-40 degC'
+PRP Mount 'Through Hole'
+PRP Package_Quantity '200'
+PRP PackageDescription 'Male Header, Pitch 2 mm, 1 x 2 Position, Height 4.8 mm, Tail Length 3.4 mm'
+PRP PackageReference 'S2B-PH-K-S'
+PRP Packaging 'Bulk'
+PRP Pins '2'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHSCompliant 'true'
+PRP Tolerance '20%'
+PRP Voltage_Rating '50 V'
+PRP Voltage_Rating_(DC) '50 V'
+TOP 0 116.40000088 78.1499961 180 N 9 3 1
+TOP 1 114.3999998 78.1499961 180 N 1 0 2
+#
+# CMP 1
+CMP 4 118.618 73.152 270 N C8 5.6pF ;0=1,1=0.0000
+TOP 0 118.618 72.47700008 270 N 2 4 1
+TOP 1 118.618 73.82699992 270 N 9 13 2
+#
+# CMP 2
+CMP 2 114.3 71.628 270 N R3 10 ;0=1,1=0.0000
+PRP Case_Code_(Imperial) '0603'
+PRP Case_Code_(Metric) '1608'
+PRP Case/Package '0603'
+PRP Composition 'Thick Film'
+PRP Contact_Plating 'Tin'
+PRP Depth '0.85mm'
+PRP Features 'Automotive AEC-Q200'
+PRP Height '0.45mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1.55mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '100mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Package_Quantity '10'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '100mW'
+PRP Resistance '10R'
+PRP Temperature_Coefficient '100ppm/°C'
+PRP Termination 'SMD/SMT'
+PRP Tolerance '1%'
+PRP Voltage_Rating '75V'
+PRP Voltage_Rating_(DC) '75V'
+PRP Weight '7.1E-05oz'
+PRP Width '0.033inch'
+TOP 0 114.3 70.87799896 270 N 3 1 1
+TOP 1 114.3 72.37800104 270 N 2 0 2
+#
+# CMP 3
+CMP 3 107.442 70.358 270 N R2 10k ;0=1,1=0.0000
+PRP Case_Code_(Imperial) '0603'
+PRP Case_Code_(Metric) '1608'
+PRP Case/Package '0603'
+PRP Composition 'Thick Film'
+PRP Contact_Plating 'Tin'
+PRP Depth '0.85mm'
+PRP Features 'Automotive AEC-Q200'
+PRP Height '0.45mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1.6mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '250mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Number_of_Terminations '2'
+PRP Package_Quantity '10'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '250mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '10kR'
+PRP Temperature_Coefficient '100ppm/°C'
+PRP Termination 'SMD/SMT'
+PRP Tolerance '1%'
+PRP Voltage_Rating '75V'
+PRP Voltage_Rating_(DC) '75V'
+PRP Weight '7.1E-05oz'
+PRP Width '0.033inch'
+TOP 0 107.442 69.60799896 270 N 8 1 1
+TOP 1 107.442 71.10800104 270 N 2 2 2
+#
+# CMP 4
+CMP 2 114.3 75.184 270 N R1 22 ;0=1,1=0.0000
+PRP Case_Code_(Imperial) '0603'
+PRP Case_Code_(Metric) '1608'
+PRP Case/Package '0603'
+PRP Composition 'Thick Film'
+PRP Contact_Plating 'Tin'
+PRP Depth '0.85mm'
+PRP Height '0.45mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1.55mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '100mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '22R'
+PRP Temperature_Coefficient '100ppm/°C'
+PRP Termination 'SMD/SMT'
+PRP Tolerance '1%'
+PRP Voltage_Rating '75V'
+PRP Voltage_Rating_(DC) '75V'
+PRP Weight '7.1E-05oz'
+PRP Width '0.85mm'
+TOP 0 114.3 74.43399896 270 N 2 1 1
+TOP 1 114.3 75.93400104 270 N 1 1 2
+#
+# CMP 5
+CMP 7 111.49000054 64.07399936 0 N Q1 BFU550A ;0=1,1=1.1100
+PRP ComponentLink1Description 'Manufacturer URL'
+PRP ComponentLink1URL 'http://www.onsemi.com/'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.onsemi.cn/pub_link/Collateral/MMBTH10LT1-D.PDF'
+PRP ComponentLink3Description 'Package Specification'
+PRP ComponentLink3URL 'http://www.onsemi.cn/pub_link/Collateral/318-08.PDF'
+PRP DatasheetVersion 'Rev. 5'
+PRP fT_Min_(MHz) '650'
+PRP Manufacturer 'On Semiconductor'
+PRP Mounting_Technology 'Surface Mount'
+PRP PackageDescription '3-Pin Small Outline Transistor, Body 2.92 x 1.3 mm, Pitch 0.95 mm'
+PRP PackageReference 'SOT-23-3-318-08'
+PRP PackageVersion 'Rev. AP, 11/2009'
+PRP Packing 'Tape and Reel'
+PRP PartNumber 'MMBTH10LT1G'
+PRP Polarity 'NPN'
+PRP RoHS 'TRUE'
+TOP 0 110.49 65.024 270 N 4 0 1
+TOP 1 110.49 63.12400126 270 N 9 9 2
+TOP 2 112.49000108 64.07399936 270 N 7 1 3
+#
+# CMP 6
+CMP 5 107.442 66.294 270 N L1 10nH ;0=1,1=0.0000
+PRP Case_Code_(Imperial) '0603'
+PRP Case_Code_(Metric) '1608'
+PRP Case/Package '0603'
+PRP Current '550mA'
+PRP Current_Rating '650mA'
+PRP DC_Current '650mA'
+PRP DC_Resistance_(DCR) '110mR'
+PRP Depth '1mm'
+PRP Height '0.8mm'
+PRP Inductance '10nH'
+PRP Inductance_Tolerance '2%'
+PRP Lead_Free 'Lead Free'
+PRP Length '1.6mm'
+PRP Max_DC_Current '650mA'
+PRP Max_Operating_Temperature '125°C'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Number_of_Pins '2'
+PRP Package_Quantity '4000'
+PRP Packaging 'Tape and Reel'
+PRP Q_Factor '35'
+PRP Radiation_Hardening 'No'
+PRP Rated_Current-Max '650mA'
+PRP REACH_SVHC 'No SVHC'
+PRP Resistor_Type 'Wirewound'
+PRP Self_Resonant_Frequency '6GHz'
+PRP Series 'LQW18A_00'
+PRP Series_Resistance '110mR'
+PRP Shielding 'Unshielded'
+PRP Termination 'SMD/SMT'
+PRP Test_Frequency '100MHz'
+PRP Tolerance '2%'
+PRP Weight '0.000106oz'
+PRP Width '0.8mm'
+TOP 0 107.442 65.63149942 270 N 4 3 1
+TOP 1 107.442 66.95650058 270 N 8 0 2
+#
+# CMP 7
+CMP 5 114.3 65.786 270 N L2 8.2nH ;0=1,1=0.0000
+PRP Case_Code_(Imperial) '0603'
+PRP Case_Code_(Metric) '1608'
+PRP Case/Package '0603'
+PRP Core_Material 'Non-Magnetic'
+PRP Current_Rating '650mA'
+PRP DC_Current '650mA'
+PRP DC_Resistance_(DCR) '110mR'
+PRP Depth '1mm'
+PRP Height '0.8mm'
+PRP Height_-_Seated_(Max) '0.039inch'
+PRP Inductance '8.2nH'
+PRP Lead_Free 'Lead Free'
+PRP Length '1.6mm'
+PRP Max_DC_Current '650mA'
+PRP Max_Operating_Temperature '125°C'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '4000'
+PRP Packaging 'Tape and Reel'
+PRP Q_Factor '35'
+PRP Radiation_Hardening 'No'
+PRP Resistor_Type 'Wirewound'
+PRP Self_Resonant_Frequency '6GHz'
+PRP Series_Resistance '110mR'
+PRP Shielding 'Unshielded'
+PRP Termination 'SMD/SMT'
+PRP Test_Frequency '100MHz'
+PRP Weight '0.000106oz'
+PRP Width '0.031inch'
+TOP 0 114.3 65.12349942 270 N 7 2 1
+TOP 1 114.3 66.44850058 270 N 3 0 2
+#
+# CMP 8
+CMP 1 88.24399928 65.024 270 N J1 CON-SMA-EDGE-S ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Category 'Conn'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://www.rfsolutions.co.uk/downloads/1498648656DS-CON-EDGE-SMA-4.pdf'
+PRP Conn_Orientation 'Right Angle'
+PRP Contact_Material 'Gold'
+PRP Device_Class_L1 'Connectors'
+PRP Device_Class_L2 'RF / Coaxial Connectors'
+PRP Device_Class_L3 'unset'
+PRP Digikey_Description 'CONN SMA JACK STR EDGE MNT'
+PRP Footprint_Url 'https://forum.upverter.com/uploads/default/original/3X/b/e/be75b907af57498775929d6d9099689c472e0307.pdf'
+PRP Frequency '18GHz'
+PRP Height '6.35mm'
+PRP Impedance '50O'
+PRP Is_Female 'yes'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'RF Solutions Ltd.'
+PRP Manufacturer_Part_Number 'CON-SMA-EDGE-S'
+PRP Number_Of_Contacts '1'
+PRP Octopart 'https://octopart.com/con-sma-edge-s-rf+solutions-70967450'
+PRP Package 'CONN_JACK'
+PRP RoHS 'TRUE'
+PRP Shielding 'true'
+TOP 0 95.504 65.024 270 N 5 1 1
+TOP 1 95.504 62.25400046 270 N 9 17 2
+TOP 2 95.504 67.79399954 270 N 9 18 3
+TOP 3 95.504 62.25400046 270 N 9 6 4
+TOP 4 95.504 67.79399954 270 N 9 7 5
+#
+# CMP 9
+CMP 1 137.30800072 65.04800046 90 N J2 CON-SMA-EDGE-S ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Category 'Conn'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://www.rfsolutions.co.uk/downloads/1498648656DS-CON-EDGE-SMA-4.pdf'
+PRP Conn_Orientation 'Right Angle'
+PRP Contact_Material 'Gold'
+PRP Device_Class_L1 'Connectors'
+PRP Device_Class_L2 'RF / Coaxial Connectors'
+PRP Device_Class_L3 'unset'
+PRP Digikey_Description 'CONN SMA JACK STR EDGE MNT'
+PRP Footprint_Url 'https://forum.upverter.com/uploads/default/original/3X/b/e/be75b907af57498775929d6d9099689c472e0307.pdf'
+PRP Frequency '18GHz'
+PRP Height '6.35mm'
+PRP Impedance '50O'
+PRP Is_Female 'yes'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'RF Solutions Ltd.'
+PRP Manufacturer_Part_Number 'CON-SMA-EDGE-S'
+PRP Number_Of_Contacts '1'
+PRP Octopart 'https://octopart.com/con-sma-edge-s-rf+solutions-70967450'
+PRP Package 'CONN_JACK'
+PRP RoHS 'TRUE'
+PRP Shielding 'true'
+TOP 0 130.048 65.04800046 90 N 6 2 1
+TOP 1 130.048 67.818 90 N 9 15 2
+TOP 2 130.048 62.27800092 90 N 9 16 3
+TOP 3 130.048 67.818 90 N 9 4 4
+TOP 4 130.048 62.27800092 90 N 9 5 5
+#
+# CMP 10
+CMP 4 107.442 63.754 90 N C2 3.3pF ;0=1,1=0.0000
+PRP Capacitance '3.3pF'
+PRP Case_Code_(Imperial) '0603'
+PRP Case_Code_(Metric) '1608'
+PRP Case/Package '0603'
+PRP Dielectric 'C0G'
+PRP Height '0.8mm'
+PRP Length '0.063inch'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '4000'
+PRP Packaging 'Tape and Reel'
+PRP Ratings 'AEC-Q200'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.035inch'
+PRP Voltage_Rating '100V'
+PRP Voltage_Rating_(DC) '100V'
+PRP Weight '0.000222oz'
+PRP Width '0.8mm'
+TOP 0 107.442 64.42899992 90 N 4 2 1
+TOP 1 107.442 63.07900008 90 N 9 10 2
+#
+# CMP 11
+CMP 4 119.38 64.262 90 N C4 1.5pF ;0=1,1=0.0000
+PRP Capacitance '1.5pF'
+PRP Case_Code_(Imperial) '0603'
+PRP Case_Code_(Metric) '1608'
+PRP Case/Package '0603'
+PRP Dielectric 'C0G'
+PRP Height '0.8mm'
+PRP Length '0.063inch'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '4000'
+PRP Packaging 'Tape and Reel'
+PRP Ratings 'AEC-Q200'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.035inch'
+PRP Voltage_Rating '100V'
+PRP Voltage_Rating_(DC) '100V'
+PRP Weight '0.000222oz'
+PRP Width '0.8mm'
+TOP 0 119.38 64.93699992 90 N 6 1 1
+TOP 1 119.38 63.58700008 90 N 9 8 2
+#
+# CMP 12
+CMP 4 104.49999928 64.99999954 0 N C1 47pF ;0=1,1=0.0000
+PRP Capacitance '47pF'
+PRP Case_Code_(Imperial) '0603'
+PRP Case_Code_(Metric) '1608'
+PRP Case/Package '0603'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Packaging 'Cut Tape'
+PRP Ratings 'AEC-Q200'
+PRP Tolerance '1%'
+PRP Voltage_Rating '100V'
+TOP 0 103.82499936 64.99999954 0 N 5 0 1
+TOP 1 105.1749992 64.99999954 0 N 4 1 2
+#
+# CMP 13
+CMP 4 117.00699992 65.024 0 N C3 8.2pF ;0=1,1=0.0000
+TOP 0 116.332 65.024 0 N 7 0 1
+TOP 1 117.68199984 65.024 0 N 6 0 2
+#
+# CMP 14
+CMP 4 104.648 69.596 0 N C6 220pF ;0=1,1=0.0000
+PRP Capacitance '220pF'
+PRP Case_Code_(Imperial) '0603'
+PRP Case_Code_(Metric) '1608'
+PRP Case/Package '0603'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Packaging 'Tape and Reel'
+PRP Ratings 'AEC-Q200'
+PRP Tolerance '1%'
+PRP Voltage_Rating '100V'
+TOP 0 103.97300008 69.596 0 N 9 11 1
+TOP 1 105.32299992 69.596 0 N 8 2 2
+#
+# CMP 15
+CMP 4 116.586 73.152 270 N C7 220pF ;0=1,1=0.0000
+PRP Capacitance '220pF'
+PRP Case_Code_(Imperial) '0603'
+PRP Case_Code_(Metric) '1608'
+PRP Case/Package '0603'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Packaging 'Tape and Reel'
+PRP Ratings 'AEC-Q200'
+PRP Tolerance '1%'
+PRP Voltage_Rating '100V'
+TOP 0 116.586 72.47700008 270 N 2 3 1
+TOP 1 116.586 73.82699992 270 N 9 12 2
+#
+# CMP 16
+CMP 0 111.63299746 75.96700072 180 N C5 10nF ;0=1,1=0.0000
+PRP Automotive 'Yes'
+PRP Automotive_Grade 'Grade 1'
+PRP Capacitance '10,000 pF'
+PRP Category 'Cap'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Capacitors'
+PRP Device_Class_L3 'Ceramic Capacitors'
+PRP Digikey_Description 'CAP CER 10000PF 200V X7R 0603'
+PRP Height '0.87mm'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'KEMET'
+PRP Manufacturer_Part_Number 'C0603C103K2RACTU'
+PRP Material 'Ceramic'
+PRP Mouser_Description 'Multilayer Ceramic Capacitors MLCC - SMD/SMT 200volts 10000pF X7R 10%'
+PRP Octopart 'https://octopart.com/c0603c103k2ractu-kemet-1061947'
+PRP Package 'C0603C-CF'
+PRP RoHS 'TRUE'
+PRP Temperature '-55°C to +125°C'
+PRP Temperature_Characteristic 'X7R'
+PRP Temperature_Coefficient '30ppm/°C'
+PRP Temperature_Range_High '+125°C'
+PRP Temperature_Range_Low '-55°C'
+PRP Tolerance '0.1'
+PRP Value '10,000 pF'
+PRP Voltage_Rating '200 V'
+TOP 0 112.23299626 75.96700072 180 N 1 2 1
+TOP 1 111.03299866 75.96700072 180 N 9 14 2
+#

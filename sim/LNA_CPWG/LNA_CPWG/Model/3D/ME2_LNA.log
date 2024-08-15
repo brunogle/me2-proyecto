@@ -1,0 +1,67 @@
+*** STARTING PCB CONVERSION ***
+
+Importing C:\Users\bruno\Desktop\ME2_LNA_CPWG\Project Outputs for ME2_LNA\ME2_LNA.tgz... [Fri Aug  9 08:34:56 2024]
+============================================================
+Reading ODB++ database ...
+
+Reading file odb/misc/info...
+Reading file odb/matrix/matrix...
+Reading file odb/steps/pcb/profile...
+Reading file odb/steps/pcb/eda/data...
+HDR = Altium Designer file - Version 1.0.0.30000
+eda data: 8 packages, 10 nets.
+Reading file odb/steps/pcb/layers/top_layer/features...
+111 SWHs on layer TOP_LAYER
+Reading file odb/steps/pcb/layers/dielectric_1/features...
+0 SWHs on layer DIELECTRIC_1
+Reading file odb/steps/pcb/layers/bottom_layer/features...
+57 SWHs on layer BOTTOM_LAYER
+Added layer SOLDER_MASK_BOTTOM below etch layer BOTTOM_LAYER
+Added layer SOLDER_MASK_TOP above etch layer TOP_LAYER
+Reading file odb/steps/pcb/layers/top_layer/attrlist...
+Reading file odb/steps/pcb/layers/dielectric_1/attrlist...
+Reading file odb/steps/pcb/layers/bottom_layer/attrlist...
+WARNING: material values were set to default due to missing information for the following layers:  'TOP_LAYER', 'DIELECTRIC_1', 'BOTTOM_LAYER'
+parsing drills TOP_LAYER-BOTTOM_LAYER
+Reading file odb/steps/pcb/layers/drill_plated_bottom_layer-top_layer/features...
+Reading file odb/steps/pcb/layers/comp_+_top/components...
+========================================
+INFO: Created CSV file (C:\Users\bruno\AppData\Local\Temp\CSTDE1\Temp\DE6\Untitled_0\Model\3D\ME2_LNA.csv) with component properties extracted from ODB++ file.
+========================================
+========================================
+Lumped-element import (C:\Users\bruno\AppData\Local\Temp\CSTDE1\Temp\DE6\Untitled_0\Model\3D\ME2_LNA.csv)...
+Detected ' ; ' as separator.
+
+Value-string translations:
+	10,000 pF ->  10.0 pF (C)
+WARNING: unable to interpret: [empty string]
+========================================
+WARNING: There were some warnings while importing the auto-generated CSV-file 'C:\Users\bruno\AppData\Local\Temp\CSTDE1\Temp\DE6\Untitled_0\Model\3D\ME2_LNA.csv'. Please review the auto-generated file under Parts Editor->Load (csv).
+========================================
+WARNING: placement of component 'J1' cannot be uniquely determined, placed on layer TOP_LAYER
+WARNING: placement of component 'J2' cannot be uniquely determined, placed on layer TOP_LAYER
+Unifying library padstacks...
+Finished reading database.
+============================================================
+*** ENDING PCB CONVERSION with SUCCESS***
+
+========== Starting Layout Check ==========
+Checking geometry
+Looking for geometry artifacts
+Looking for healed shape problems
+
+========== End Layout Check ==========
+
+========== Starting Layout Check ==========
+Checking geometry
+Looking for geometry artifacts
+Looking for healed shape problems
+
+========== End Layout Check ==========
+
+========== Starting Layout Check ==========
+Checking geometry
+Looking for geometry artifacts
+Looking for healed shape problems
+
+========== End Layout Check ==========

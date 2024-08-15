@@ -1,0 +1,1282 @@
+2019_10_21
+[GSCALE: 0.001]
+[PCB_BODIES: False]
+[PCB_IMPORT: True]
+[PCB_IMPORT_NEW: True]
+[DISABLE_FAST_LOAD: False]
+[BBOX:78.383998840136869 147.16800115986311 49.999999219406817 88.999999640593174 -5.2000000000000002 5.7780019999999999]
+[BBOX_STRUCTURE:83.383998840136869 142.16800115986311 54.999999219406817 83.999999640593174 -0.20000000000000001 0.77800200000000008]
+[UNITS]
+     .SetUnit "Length", "mm"
+     .SetUnit "Temperature", "degC"
+     .SetUnit "Voltage", "V"
+     .SetUnit "Current", "A"
+     .SetUnit "Resistance", "Ohm"
+     .SetUnit "Conductance", "S"
+     .SetUnit "Capacitance", "pF"
+     .SetUnit "Inductance", "nH"
+     .SetUnit "Frequency", "MHz"
+     .SetUnit "Time", "ns"
+     .SetResultUnit "frequency", "frequency", "" 
+[ENDUNITS]
+[FREQUENCYRANGE]
+Solver.FrequencyRange "0", "2000" 
+[ENDFREQUENCYRANGE]
+[BACKGROUND]
+     .XminSpace "5" 
+     .XmaxSpace "5" 
+     .YminSpace "5" 
+     .YmaxSpace "5" 
+     .ZminSpace "5" 
+     .ZmaxSpace "5" 
+     .ApplyInAllDirections "False" 
+[ENDBACKGROUND]
+[BOUNDARY]
+     .Xmin "open"
+     .Xmax "open"
+     .Ymin "open"
+     .Ymax "open"
+     .Zmin "open"
+     .Zmax "open"
+     .Xsymmetry "none"
+     .Ysymmetry "none"
+     .Zsymmetry "none"
+     .ApplyInAllDirections "False"
+     .ThermalBoundary "Xmin", "isothermal"
+     .ThermalBoundary "Xmax", "isothermal"
+     .ThermalBoundary "Ymin", "isothermal"
+     .ThermalBoundary "Ymax", "isothermal"
+     .ThermalBoundary "Zmin", "isothermal"
+     .ThermalBoundary "Zmax", "isothermal"
+     .ThermalSymmetry "X", "none"
+     .ThermalSymmetry "Y", "none"
+     .ThermalSymmetry "Z", "none"
+     .ResetThermalBoundaryValues
+     .WallFlow "Xmin", "NoSlip"
+     .EnableThermalRadiation "Xmin", "True"
+     .WallFlow "Xmax", "NoSlip"
+     .EnableThermalRadiation "Xmax", "True"
+     .WallFlow "Ymin", "NoSlip"
+     .EnableThermalRadiation "Ymin", "True"
+     .WallFlow "Ymax", "NoSlip"
+     .EnableThermalRadiation "Ymax", "True"
+     .WallFlow "Zmin", "NoSlip"
+     .EnableThermalRadiation "Zmin", "True"
+     .WallFlow "Zmax", "NoSlip"
+     .EnableThermalRadiation "Zmax", "True"
+[ENDBOUNDARY]
+[MATERIAL: $CoilMaterial$]
+     .Rho "0"
+     .ThermalType "Normal"
+     .ThermalConductivity "0"
+     .SpecificHeat "0", "J/K/kg"
+     .DynamicViscosity "0"
+     .UseEmissivity "True"
+     .Emissivity "0"
+     .MetabolicRate "0.0"
+     .VoxelConvection "0.0"
+     .BloodFlow "0"
+     .Absorptance "0"
+     .MechanicsType "Unused"
+     .IntrinsicCarrierDensity "0"
+     .FrqType "all"
+     .Type "Normal"
+     .MaterialUnit "Time", "s"
+     .Epsilon "1.0"
+     .Mu "1.0"
+     .Sigma "0"
+     .TanD "0.0"
+     .TanDFreq "0.0"
+     .TanDGiven "False"
+     .TanDModel "ConstSigma"
+     .SetConstTanDStrategyEps "AutomaticOrder"
+     .ConstTanDModelOrderEps "3"
+     .DjordjevicSarkarUpperFreqEps "0"
+     .SetElParametricConductivity "False"
+     .ReferenceCoordSystem "Global"
+     .CoordSystemType "Cartesian"
+     .SigmaM "0"
+     .TanDM "0.0"
+     .TanDMFreq "0.0"
+     .TanDMGiven "False"
+     .TanDMModel "ConstSigma"
+     .SetConstTanDStrategyMu "AutomaticOrder"
+     .ConstTanDModelOrderMu "3"
+     .DjordjevicSarkarUpperFreqMu "0"
+     .SetMagParametricConductivity "False"
+     .DispModelEps  "None"
+     .DispModelMu "None"
+     .DispersiveFittingSchemeEps "Nth Order"
+     .MaximalOrderNthModelFitEps "10"
+     .ErrorLimitNthModelFitEps "0.1"
+     .UseOnlyDataInSimFreqRangeNthModelEps "False"
+     .DispersiveFittingSchemeMu "Nth Order"
+     .MaximalOrderNthModelFitMu "10"
+     .ErrorLimitNthModelFitMu "0.1"
+     .UseOnlyDataInSimFreqRangeNthModelMu "False"
+     .UseGeneralDispersionEps "False"
+     .UseGeneralDispersionMu "False"
+     .NLAnisotropy "False"
+     .NLAStackingFactor "1"
+     .NLADirectionX "1"
+     .NLADirectionY "0"
+     .NLADirectionZ "0"
+     .Colour "0", "1", "1" 
+     .Wireframe "False" 
+     .Reflection "False" 
+     .Allowoutline "True" 
+     .Transparentoutline "False" 
+     .Transparency "0" 
+     .Create
+[ENDMATERIAL]
+[MATERIAL: $NFSMaterial$]
+     .Rho "0"
+     .ThermalType "Normal"
+     .ThermalConductivity "0"
+     .SpecificHeat "0", "J/K/kg"
+     .DynamicViscosity "0"
+     .UseEmissivity "True"
+     .Emissivity "0"
+     .MetabolicRate "0.0"
+     .VoxelConvection "0.0"
+     .BloodFlow "0"
+     .Absorptance "0"
+     .MechanicsType "Unused"
+     .IntrinsicCarrierDensity "0"
+     .FrqType "all"
+     .Type "Normal"
+     .MaterialUnit "Time", "s"
+     .Epsilon "1.0"
+     .Mu "1.0"
+     .Sigma "0"
+     .TanD "0.0"
+     .TanDFreq "0.0"
+     .TanDGiven "False"
+     .TanDModel "ConstSigma"
+     .SetConstTanDStrategyEps "AutomaticOrder"
+     .ConstTanDModelOrderEps "3"
+     .DjordjevicSarkarUpperFreqEps "0"
+     .SetElParametricConductivity "False"
+     .ReferenceCoordSystem "Global"
+     .CoordSystemType "Cartesian"
+     .SigmaM "0"
+     .TanDM "0.0"
+     .TanDMFreq "0.0"
+     .TanDMGiven "False"
+     .TanDMModel "ConstSigma"
+     .SetConstTanDStrategyMu "AutomaticOrder"
+     .ConstTanDModelOrderMu "3"
+     .DjordjevicSarkarUpperFreqMu "0"
+     .SetMagParametricConductivity "False"
+     .DispModelEps  "None"
+     .DispModelMu "None"
+     .DispersiveFittingSchemeEps "Nth Order"
+     .MaximalOrderNthModelFitEps "10"
+     .ErrorLimitNthModelFitEps "0.1"
+     .UseOnlyDataInSimFreqRangeNthModelEps "False"
+     .DispersiveFittingSchemeMu "Nth Order"
+     .MaximalOrderNthModelFitMu "10"
+     .ErrorLimitNthModelFitMu "0.1"
+     .UseOnlyDataInSimFreqRangeNthModelMu "False"
+     .UseGeneralDispersionEps "False"
+     .UseGeneralDispersionMu "False"
+     .NLAnisotropy "False"
+     .NLAStackingFactor "1"
+     .NLADirectionX "1"
+     .NLADirectionY "0"
+     .NLADirectionZ "0"
+     .Colour "0", "1", "1" 
+     .Wireframe "False" 
+     .Reflection "False" 
+     .Allowoutline "True" 
+     .Transparentoutline "False" 
+     .Transparency "0" 
+     .Create
+[ENDMATERIAL]
+[MATERIAL: ME2_LNA(PCB1)/Copper]
+     .Rho "8930"
+     .ThermalType "Normal"
+     .ThermalConductivity "401"
+     .SpecificHeat "390", "J/K/kg"
+     .DynamicViscosity "0"
+     .UseEmissivity "True"
+     .Emissivity "0"
+     .MetabolicRate "0"
+     .VoxelConvection "0"
+     .BloodFlow "0"
+     .Absorptance "0"
+     .MechanicsType "Isotropic"
+     .YoungsModulus "120"
+     .PoissonsRatio "0.33"
+     .ThermalExpansionRate "17"
+     .IntrinsicCarrierDensity "0"
+     .FrqType "static"
+     .Type "Normal"
+     .MaterialUnit "Frequency", "Hz"
+     .MaterialUnit "Geometry", "mm"
+     .MaterialUnit "Time", "s"
+     .Epsilon "1"
+     .Mu "1"
+     .Sigma "5.8e+07"
+     .TanD "0.0"
+     .TanDFreq "0.0"
+     .TanDGiven "False"
+     .TanDModel "ConstTanD"
+     .SetConstTanDStrategyEps "AutomaticOrder"
+     .ConstTanDModelOrderEps "3"
+     .DjordjevicSarkarUpperFreqEps "0"
+     .SetElParametricConductivity "False"
+     .ReferenceCoordSystem "Global"
+     .CoordSystemType "Cartesian"
+     .SigmaM "0"
+     .TanDM "0.0"
+     .TanDMFreq "0.0"
+     .TanDMGiven "False"
+     .TanDMModel "ConstTanD"
+     .SetConstTanDStrategyMu "AutomaticOrder"
+     .ConstTanDModelOrderMu "3"
+     .DjordjevicSarkarUpperFreqMu "0"
+     .SetMagParametricConductivity "False"
+     .DispModelEps  "None"
+     .DispModelMu "None"
+     .DispersiveFittingSchemeEps "Nth Order"
+     .MaximalOrderNthModelFitEps "10"
+     .ErrorLimitNthModelFitEps "0.1"
+     .UseOnlyDataInSimFreqRangeNthModelEps "False"
+     .DispersiveFittingSchemeMu "Nth Order"
+     .MaximalOrderNthModelFitMu "10"
+     .ErrorLimitNthModelFitMu "0.1"
+     .UseOnlyDataInSimFreqRangeNthModelMu "False"
+     .UseGeneralDispersionEps "False"
+     .UseGeneralDispersionMu "False"
+     .NLAnisotropy "False"
+     .NLAStackingFactor "1"
+     .NLADirectionX "1"
+     .NLADirectionY "0"
+     .NLADirectionZ "0"
+     .FrqType "all"
+     .Type "Lossy metal"
+     .MaterialUnit "Frequency", "GHz"
+     .MaterialUnit "Geometry", "mm"
+     .MaterialUnit "Time", "s"
+     .Mu "1"
+     .Sigma "5.8e+07"
+     .LossyMetalSIRoughness "0.0"
+     .ReferenceCoordSystem "Global"
+     .CoordSystemType "Cartesian"
+     .NLAnisotropy "False"
+     .NLAStackingFactor "1"
+     .NLADirectionX "1"
+     .NLADirectionY "0"
+     .NLADirectionZ "0"
+     .Colour "0.703", "0.703", "0" 
+     .Wireframe "False" 
+     .Reflection "False" 
+     .Allowoutline "True" 
+     .Transparentoutline "False" 
+     .Transparency "0" 
+     .Create
+[ENDMATERIAL]
+[MATERIAL: ME2_LNA(PCB1)/MATERIAL]
+     .Rho "0.0"
+     .ThermalType "Normal"
+     .ThermalConductivity "0.75"
+     .SpecificHeat "0", "J/K/kg"
+     .DynamicViscosity "0"
+     .UseEmissivity "True"
+     .Emissivity "0"
+     .MetabolicRate "0.0"
+     .VoxelConvection "0.0"
+     .BloodFlow "0"
+     .Absorptance "0"
+     .MechanicsType "Unused"
+     .IntrinsicCarrierDensity "0"
+     .FrqType "all"
+     .Type "Normal"
+     .MaterialUnit "Frequency", "GHz"
+     .MaterialUnit "Geometry", "mm"
+     .MaterialUnit "Time", "s"
+     .Epsilon "6.4"
+     .Mu "1.0"
+     .Sigma "0.0"
+     .TanD "0.0"
+     .TanDFreq "0.0"
+     .TanDGiven "False"
+     .TanDModel "ConstTanD"
+     .SetConstTanDStrategyEps "AutomaticOrder"
+     .ConstTanDModelOrderEps "3"
+     .DjordjevicSarkarUpperFreqEps "0"
+     .SetElParametricConductivity "False"
+     .ReferenceCoordSystem "Global"
+     .CoordSystemType "Cartesian"
+     .SigmaM "0.0"
+     .TanDM "0.0"
+     .TanDMFreq "0.0"
+     .TanDMGiven "False"
+     .TanDMModel "ConstSigma"
+     .SetConstTanDStrategyMu "AutomaticOrder"
+     .ConstTanDModelOrderMu "3"
+     .DjordjevicSarkarUpperFreqMu "0"
+     .SetMagParametricConductivity "False"
+     .DispModelEps  "None"
+     .DispModelMu "None"
+     .DispersiveFittingSchemeEps "1st Order"
+     .DispersiveFittingSchemeMu "1st Order"
+     .UseGeneralDispersionEps "False"
+     .UseGeneralDispersionMu "False"
+     .NLAnisotropy "False"
+     .NLAStackingFactor "1"
+     .NLADirectionX "1"
+     .NLADirectionY "0"
+     .NLADirectionZ "0"
+     .Colour "0.75", "0.95", "0.85" 
+     .Wireframe "False" 
+     .Reflection "False" 
+     .Allowoutline "True" 
+     .Transparentoutline "False" 
+     .Transparency "0" 
+     .Create
+[ENDMATERIAL]
+[MATERIAL: ME2_LNA(PCB1)/PEC Sheets]
+     .Rho "0.0"
+     .ThermalType "Normal"
+     .ThermalConductivity "0"
+     .SpecificHeat "0", "J/K/kg"
+     .DynamicViscosity "0"
+     .UseEmissivity "True"
+     .Emissivity "0"
+     .MetabolicRate "0.0"
+     .VoxelConvection "0.0"
+     .BloodFlow "0"
+     .Absorptance "0"
+     .MechanicsType "Unused"
+     .IntrinsicCarrierDensity "0"
+     .FrqType "static"
+     .Type "Pec"
+     .MaterialUnit "Time", "s"
+     .Epsilon "1"
+     .Mu "1"
+     .ReferenceCoordSystem "Global"
+     .CoordSystemType "Cartesian"
+     .NLAnisotropy "False"
+     .NLAStackingFactor "1"
+     .NLADirectionX "1"
+     .NLADirectionY "0"
+     .NLADirectionZ "0"
+     .FrqType "all"
+     .Type "Pec"
+     .MaterialUnit "Time", "s"
+     .Epsilon "1"
+     .Mu "1"
+     .ReferenceCoordSystem "Global"
+     .CoordSystemType "Cartesian"
+     .NLAnisotropy "False"
+     .NLAStackingFactor "1"
+     .NLADirectionX "1"
+     .NLADirectionY "0"
+     .NLADirectionZ "0"
+     .Colour "0.588235", "0.588235", "0.588235" 
+     .Wireframe "False" 
+     .Reflection "False" 
+     .Allowoutline "True" 
+     .Transparentoutline "True" 
+     .Transparency "30" 
+     .Create
+[ENDMATERIAL]
+[MATERIAL: ME2_LNA(PCB1)/VIAS_MATERIAL]
+     .Rho "8930"
+     .ThermalType "Normal"
+     .ThermalConductivity "401"
+     .SpecificHeat "390", "J/K/kg"
+     .DynamicViscosity "0"
+     .UseEmissivity "True"
+     .Emissivity "0"
+     .MetabolicRate "0"
+     .VoxelConvection "0"
+     .BloodFlow "0"
+     .Absorptance "0"
+     .MechanicsType "Isotropic"
+     .YoungsModulus "120"
+     .PoissonsRatio "0.33"
+     .ThermalExpansionRate "17"
+     .IntrinsicCarrierDensity "0"
+     .FrqType "static"
+     .Type "Normal"
+     .MaterialUnit "Frequency", "Hz"
+     .MaterialUnit "Geometry", "mm"
+     .MaterialUnit "Time", "s"
+     .Epsilon "1"
+     .Mu "1"
+     .Sigma "5.8e+07"
+     .TanD "0.0"
+     .TanDFreq "0.0"
+     .TanDGiven "False"
+     .TanDModel "ConstTanD"
+     .SetConstTanDStrategyEps "AutomaticOrder"
+     .ConstTanDModelOrderEps "3"
+     .DjordjevicSarkarUpperFreqEps "0"
+     .SetElParametricConductivity "False"
+     .ReferenceCoordSystem "Global"
+     .CoordSystemType "Cartesian"
+     .SigmaM "0"
+     .TanDM "0.0"
+     .TanDMFreq "0.0"
+     .TanDMGiven "False"
+     .TanDMModel "ConstTanD"
+     .SetConstTanDStrategyMu "AutomaticOrder"
+     .ConstTanDModelOrderMu "3"
+     .DjordjevicSarkarUpperFreqMu "0"
+     .SetMagParametricConductivity "False"
+     .DispModelEps  "None"
+     .DispModelMu "None"
+     .DispersiveFittingSchemeEps "Nth Order"
+     .MaximalOrderNthModelFitEps "10"
+     .ErrorLimitNthModelFitEps "0.1"
+     .UseOnlyDataInSimFreqRangeNthModelEps "False"
+     .DispersiveFittingSchemeMu "Nth Order"
+     .MaximalOrderNthModelFitMu "10"
+     .ErrorLimitNthModelFitMu "0.1"
+     .UseOnlyDataInSimFreqRangeNthModelMu "False"
+     .UseGeneralDispersionEps "False"
+     .UseGeneralDispersionMu "False"
+     .NLAnisotropy "False"
+     .NLAStackingFactor "1"
+     .NLADirectionX "1"
+     .NLADirectionY "0"
+     .NLADirectionZ "0"
+     .FrqType "all"
+     .Type "Lossy metal"
+     .MaterialUnit "Frequency", "GHz"
+     .MaterialUnit "Geometry", "mm"
+     .MaterialUnit "Time", "s"
+     .Mu "1"
+     .Sigma "5.8e+07"
+     .LossyMetalSIRoughness "0.0"
+     .ReferenceCoordSystem "Global"
+     .CoordSystemType "Cartesian"
+     .NLAnisotropy "False"
+     .NLAStackingFactor "1"
+     .NLADirectionX "1"
+     .NLADirectionY "0"
+     .NLADirectionZ "0"
+     .Colour "1", "0", "0" 
+     .Wireframe "False" 
+     .Reflection "False" 
+     .Allowoutline "True" 
+     .Transparentoutline "False" 
+     .Transparency "0" 
+     .Create
+[ENDMATERIAL]
+[MATERIAL: PEC]
+     .Rho "0"
+     .ThermalType "PTC"
+     .MechanicsType "Unused"
+     .IntrinsicCarrierDensity "0"
+     .FrqType "all"
+     .Type "Pec"
+     .MaterialUnit "Frequency", "Hz"
+     .MaterialUnit "Geometry", "m"
+     .MaterialUnit "Time", "s"
+     .MaterialUnit "Temperature", "K"
+     .Epsilon "1"
+     .Mu "1"
+     .ReferenceCoordSystem "Global"
+     .CoordSystemType "Cartesian"
+     .NLAnisotropy "False"
+     .NLAStackingFactor "1"
+     .NLADirectionX "1"
+     .NLADirectionY "0"
+     .NLADirectionZ "0"
+     .Colour "0.8", "0.8", "0.8" 
+     .Wireframe "False" 
+     .Reflection "True" 
+     .Allowoutline "True" 
+     .Transparentoutline "False" 
+     .Transparency "0" 
+     .Create
+[ENDMATERIAL]
+[MATERIAL: Vacuum]
+     .Rho "0"
+     .ThermalType "Normal"
+     .ThermalConductivity "0"
+     .SpecificHeat "0", "J/K/kg"
+     .DynamicViscosity "0"
+     .UseEmissivity "True"
+     .Emissivity "0"
+     .MetabolicRate "0.0"
+     .VoxelConvection "0.0"
+     .BloodFlow "0"
+     .Absorptance "0"
+     .MechanicsType "Unused"
+     .IntrinsicCarrierDensity "0"
+     .FrqType "all"
+     .Type "Normal"
+     .MaterialUnit "Frequency", "Hz"
+     .MaterialUnit "Geometry", "m"
+     .MaterialUnit "Time", "s"
+     .MaterialUnit "Temperature", "K"
+     .Epsilon "1.0"
+     .Mu "1.0"
+     .Sigma "0"
+     .TanD "0.0"
+     .TanDFreq "0.0"
+     .TanDGiven "False"
+     .TanDModel "ConstSigma"
+     .SetConstTanDStrategyEps "AutomaticOrder"
+     .ConstTanDModelOrderEps "3"
+     .DjordjevicSarkarUpperFreqEps "0"
+     .SetElParametricConductivity "False"
+     .ReferenceCoordSystem "Global"
+     .CoordSystemType "Cartesian"
+     .SigmaM "0"
+     .TanDM "0.0"
+     .TanDMFreq "0.0"
+     .TanDMGiven "False"
+     .TanDMModel "ConstSigma"
+     .SetConstTanDStrategyMu "AutomaticOrder"
+     .ConstTanDModelOrderMu "3"
+     .DjordjevicSarkarUpperFreqMu "0"
+     .SetMagParametricConductivity "False"
+     .DispModelEps  "None"
+     .DispModelMu "None"
+     .DispersiveFittingSchemeEps "Nth Order"
+     .MaximalOrderNthModelFitEps "10"
+     .ErrorLimitNthModelFitEps "0.1"
+     .UseOnlyDataInSimFreqRangeNthModelEps "False"
+     .DispersiveFittingSchemeMu "Nth Order"
+     .MaximalOrderNthModelFitMu "10"
+     .ErrorLimitNthModelFitMu "0.1"
+     .UseOnlyDataInSimFreqRangeNthModelMu "False"
+     .UseGeneralDispersionEps "False"
+     .UseGeneralDispersionMu "False"
+     .NLAnisotropy "False"
+     .NLAStackingFactor "1"
+     .NLADirectionX "1"
+     .NLADirectionY "0"
+     .NLADirectionZ "0"
+     .Colour "0.5", "0.8", "1" 
+     .Wireframe "False" 
+     .Reflection "False" 
+     .Allowoutline "True" 
+     .Transparentoutline "False" 
+     .Transparency "0" 
+     .Create
+[ENDMATERIAL]
+[MATERIAL: air_0]
+     .Rho "1.204"
+     .ThermalType "Normal"
+     .ThermalConductivity "0.026"
+     .SpecificHeat "1005", "J/K/kg"
+     .DynamicViscosity "0"
+     .UseEmissivity "True"
+     .Emissivity "0"
+     .MetabolicRate "0.0"
+     .VoxelConvection "0.0"
+     .BloodFlow "0"
+     .Absorptance "0"
+     .MechanicsType "Unused"
+     .IntrinsicCarrierDensity "0"
+     .FrqType "all"
+     .Type "Normal"
+     .MaterialUnit "Frequency", "Hz"
+     .MaterialUnit "Geometry", "m"
+     .MaterialUnit "Time", "s"
+     .MaterialUnit "Temperature", "K"
+     .Epsilon "1.0"
+     .Mu "1.0"
+     .Sigma "0"
+     .TanD "0.0"
+     .TanDFreq "0.0"
+     .TanDGiven "False"
+     .TanDModel "ConstSigma"
+     .SetConstTanDStrategyEps "AutomaticOrder"
+     .ConstTanDModelOrderEps "3"
+     .DjordjevicSarkarUpperFreqEps "0"
+     .SetElParametricConductivity "False"
+     .ReferenceCoordSystem "Global"
+     .CoordSystemType "Cartesian"
+     .SigmaM "0"
+     .TanDM "0.0"
+     .TanDMFreq "0.0"
+     .TanDMGiven "False"
+     .TanDMModel "ConstSigma"
+     .SetConstTanDStrategyMu "AutomaticOrder"
+     .ConstTanDModelOrderMu "3"
+     .DjordjevicSarkarUpperFreqMu "0"
+     .SetMagParametricConductivity "False"
+     .DispModelEps  "None"
+     .DispModelMu "None"
+     .DispersiveFittingSchemeEps "Nth Order"
+     .MaximalOrderNthModelFitEps "10"
+     .ErrorLimitNthModelFitEps "0.1"
+     .UseOnlyDataInSimFreqRangeNthModelEps "False"
+     .DispersiveFittingSchemeMu "Nth Order"
+     .MaximalOrderNthModelFitMu "10"
+     .ErrorLimitNthModelFitMu "0.1"
+     .UseOnlyDataInSimFreqRangeNthModelMu "False"
+     .UseGeneralDispersionEps "False"
+     .UseGeneralDispersionMu "False"
+     .NLAnisotropy "False"
+     .NLAStackingFactor "1"
+     .NLADirectionX "1"
+     .NLADirectionY "0"
+     .NLADirectionZ "0"
+     .Colour "0.6", "0.6", "0.6" 
+     .Wireframe "False" 
+     .Reflection "False" 
+     .Allowoutline "True" 
+     .Transparentoutline "False" 
+     .Transparency "0" 
+     .Create
+[ENDMATERIAL]
+[WIRE: ME2_LNA(PCB1):Q1-3]
+     .Radius "0" 
+     .Type "CurveWire" 
+     .Curve "PCB_UID_110173_UTR:Q1-3" 
+     .Material "PEC" 
+     .SolidWireModel "False" 
+     .Termination "natural" 
+     .Mitering "natural" 
+     .AdvancedChainSelection "True" 
+[ENDWIRE]
+[WIRE: ME2_LNA(PCB1):Q1-2]
+     .Radius "0" 
+     .Type "CurveWire" 
+     .Curve "PCB_UID_110173_UTR:Q1-2" 
+     .Material "PEC" 
+     .SolidWireModel "False" 
+     .Termination "natural" 
+     .Mitering "natural" 
+     .AdvancedChainSelection "True" 
+[ENDWIRE]
+[WIRE: ME2_LNA(PCB1):Q1-1]
+     .Radius "0" 
+     .Type "CurveWire" 
+     .Curve "PCB_UID_110173_UTR:Q1-1" 
+     .Material "PEC" 
+     .SolidWireModel "False" 
+     .Termination "natural" 
+     .Mitering "natural" 
+     .AdvancedChainSelection "True" 
+[ENDWIRE]
+[LUMPED_FACE: ME2_LNA(PCB1):C1]
+     .SetType "RLCSerial"
+     .SetR "0"
+     .SetL "0"
+     .SetC "47*10^(-12)"
+     .SetGs "0"
+     .SetI0 "0"
+     .SetT "0"
+     .SetMonitor "False"
+     .CircuitFileName ""
+     .CircuitId "1"
+     .UseCopyOnly "False"
+     .UseRelativePath "False"
+     .SetP1 "True", "103.82499936", "64.99999954", "0.778002" 
+     .SetP2 "True", "105.1749992", "64.99999954", "0.778002" 
+     .SetInvert "False" 
+     .UseProjection "False" 
+     .ReverseProjection "False" 
+[ENDLUMPED_FACE]
+[LUMPED_FACE: ME2_LNA(PCB1):C2]
+     .SetType "RLCSerial"
+     .SetR "0"
+     .SetL "0"
+     .SetC "3.2999999999999998*10^(-12)"
+     .SetGs "0"
+     .SetI0 "0"
+     .SetT "0"
+     .SetMonitor "False"
+     .CircuitFileName ""
+     .CircuitId "1"
+     .UseCopyOnly "False"
+     .UseRelativePath "False"
+     .SetP1 "True", "107.442", "64.42899992", "0.778002" 
+     .SetP2 "True", "107.442", "63.07900008", "0.778002" 
+     .SetInvert "False" 
+     .UseProjection "False" 
+     .ReverseProjection "False" 
+[ENDLUMPED_FACE]
+[LUMPED_FACE: ME2_LNA(PCB1):C3]
+     .SetType "RLCSerial"
+     .SetR "0"
+     .SetL "0"
+     .SetC "8.1999999999999993*10^(-12)"
+     .SetGs "0"
+     .SetI0 "0"
+     .SetT "0"
+     .SetMonitor "False"
+     .CircuitFileName ""
+     .CircuitId "1"
+     .UseCopyOnly "False"
+     .UseRelativePath "False"
+     .SetP1 "True", "116.332", "65.024", "0.778002" 
+     .SetP2 "True", "117.68199984", "65.024", "0.778002" 
+     .SetInvert "False" 
+     .UseProjection "False" 
+     .ReverseProjection "False" 
+[ENDLUMPED_FACE]
+[LUMPED_FACE: ME2_LNA(PCB1):C4]
+     .SetType "RLCSerial"
+     .SetR "0"
+     .SetL "0"
+     .SetC "1.5*10^(-12)"
+     .SetGs "0"
+     .SetI0 "0"
+     .SetT "0"
+     .SetMonitor "False"
+     .CircuitFileName ""
+     .CircuitId "1"
+     .UseCopyOnly "False"
+     .UseRelativePath "False"
+     .SetP1 "True", "119.38", "64.93699992", "0.778002" 
+     .SetP2 "True", "119.38", "63.58700008", "0.778002" 
+     .SetInvert "False" 
+     .UseProjection "False" 
+     .ReverseProjection "False" 
+[ENDLUMPED_FACE]
+[LUMPED_FACE: ME2_LNA(PCB1):C5]
+     .SetType "RLCSerial"
+     .SetR "0"
+     .SetL "0"
+     .SetC "0.00000001"
+     .SetGs "0"
+     .SetI0 "0"
+     .SetT "0"
+     .SetMonitor "False"
+     .CircuitFileName ""
+     .CircuitId "1"
+     .UseCopyOnly "False"
+     .UseRelativePath "False"
+     .SetP1 "True", "112.23299626", "75.96700072", "0.778002" 
+     .SetP2 "True", "111.03299866", "75.96700072", "0.778002" 
+     .SetInvert "False" 
+     .UseProjection "False" 
+     .ReverseProjection "False" 
+[ENDLUMPED_FACE]
+[LUMPED_FACE: ME2_LNA(PCB1):C6]
+     .SetType "RLCSerial"
+     .SetR "0"
+     .SetL "0"
+     .SetC "0.00000000022"
+     .SetGs "0"
+     .SetI0 "0"
+     .SetT "0"
+     .SetMonitor "False"
+     .CircuitFileName ""
+     .CircuitId "1"
+     .UseCopyOnly "False"
+     .UseRelativePath "False"
+     .SetP1 "True", "103.97300008", "69.596", "0.778002" 
+     .SetP2 "True", "105.32299992", "69.596", "0.778002" 
+     .SetInvert "False" 
+     .UseProjection "False" 
+     .ReverseProjection "False" 
+[ENDLUMPED_FACE]
+[LUMPED_FACE: ME2_LNA(PCB1):C7]
+     .SetType "RLCSerial"
+     .SetR "0"
+     .SetL "0"
+     .SetC "0.00000000022"
+     .SetGs "0"
+     .SetI0 "0"
+     .SetT "0"
+     .SetMonitor "False"
+     .CircuitFileName ""
+     .CircuitId "1"
+     .UseCopyOnly "False"
+     .UseRelativePath "False"
+     .SetP1 "True", "116.586", "72.47700008", "0.778002" 
+     .SetP2 "True", "116.586", "73.82699992", "0.778002" 
+     .SetInvert "False" 
+     .UseProjection "False" 
+     .ReverseProjection "False" 
+[ENDLUMPED_FACE]
+[LUMPED_FACE: ME2_LNA(PCB1):C8]
+     .SetType "RLCSerial"
+     .SetR "0"
+     .SetL "0"
+     .SetC "0.0000000000056"
+     .SetGs "0"
+     .SetI0 "0"
+     .SetT "0"
+     .SetMonitor "False"
+     .CircuitFileName ""
+     .CircuitId "1"
+     .UseCopyOnly "False"
+     .UseRelativePath "False"
+     .SetP1 "True", "118.618", "72.47700008", "0.778002" 
+     .SetP2 "True", "118.618", "73.82699992", "0.778002" 
+     .SetInvert "False" 
+     .UseProjection "False" 
+     .ReverseProjection "False" 
+[ENDLUMPED_FACE]
+[LUMPED_FACE: ME2_LNA(PCB1):J3]
+     .SetType "RLCParallel"
+     .SetR "0.001"
+     .SetL "0"
+     .SetC "0"
+     .SetGs "0"
+     .SetI0 "0"
+     .SetT "0"
+     .SetMonitor "False"
+     .CircuitFileName ""
+     .CircuitId "1"
+     .UseCopyOnly "False"
+     .UseRelativePath "False"
+     .SetP1 "True", "116.40000088", "78.1499961", "0.778002" 
+     .SetP2 "True", "114.3999998", "78.1499961", "0.778002" 
+     .SetInvert "False" 
+     .UseProjection "False" 
+     .ReverseProjection "False" 
+[ENDLUMPED_FACE]
+[LUMPED_FACE: ME2_LNA(PCB1):L1]
+     .SetType "RLCParallel"
+     .SetR "0"
+     .SetL "10*10^(-9)"
+     .SetC "0"
+     .SetGs "0"
+     .SetI0 "0"
+     .SetT "0"
+     .SetMonitor "False"
+     .CircuitFileName ""
+     .CircuitId "1"
+     .UseCopyOnly "False"
+     .UseRelativePath "False"
+     .SetP1 "True", "107.442", "65.63149942", "0.778002" 
+     .SetP2 "True", "107.442", "66.95650058", "0.778002" 
+     .SetInvert "False" 
+     .UseProjection "False" 
+     .ReverseProjection "False" 
+[ENDLUMPED_FACE]
+[LUMPED_FACE: ME2_LNA(PCB1):L2]
+     .SetType "RLCParallel"
+     .SetR "0"
+     .SetL "8.1999999999999993*10^(-9)"
+     .SetC "0"
+     .SetGs "0"
+     .SetI0 "0"
+     .SetT "0"
+     .SetMonitor "False"
+     .CircuitFileName ""
+     .CircuitId "1"
+     .UseCopyOnly "False"
+     .UseRelativePath "False"
+     .SetP1 "True", "114.3", "65.12349942", "0.778002" 
+     .SetP2 "True", "114.3", "66.44850058", "0.778002" 
+     .SetInvert "False" 
+     .UseProjection "False" 
+     .ReverseProjection "False" 
+[ENDLUMPED_FACE]
+[LUMPED_FACE: ME2_LNA(PCB1):R1]
+     .SetType "RLCParallel"
+     .SetR "22"
+     .SetL "0"
+     .SetC "0"
+     .SetGs "0"
+     .SetI0 "0"
+     .SetT "0"
+     .SetMonitor "False"
+     .CircuitFileName ""
+     .CircuitId "1"
+     .UseCopyOnly "False"
+     .UseRelativePath "False"
+     .SetP1 "True", "114.3", "74.43399896", "0.778002" 
+     .SetP2 "True", "114.3", "75.93400104", "0.778002" 
+     .SetInvert "False" 
+     .UseProjection "False" 
+     .ReverseProjection "False" 
+[ENDLUMPED_FACE]
+[LUMPED_FACE: ME2_LNA(PCB1):R2]
+     .SetType "RLCParallel"
+     .SetR "10000"
+     .SetL "0"
+     .SetC "0"
+     .SetGs "0"
+     .SetI0 "0"
+     .SetT "0"
+     .SetMonitor "False"
+     .CircuitFileName ""
+     .CircuitId "1"
+     .UseCopyOnly "False"
+     .UseRelativePath "False"
+     .SetP1 "True", "107.442", "69.60799896", "0.778002" 
+     .SetP2 "True", "107.442", "71.10800104", "0.778002" 
+     .SetInvert "False" 
+     .UseProjection "False" 
+     .ReverseProjection "False" 
+[ENDLUMPED_FACE]
+[LUMPED_FACE: ME2_LNA(PCB1):R3]
+     .SetType "RLCParallel"
+     .SetR "10"
+     .SetL "0"
+     .SetC "0"
+     .SetGs "0"
+     .SetI0 "0"
+     .SetT "0"
+     .SetMonitor "False"
+     .CircuitFileName ""
+     .CircuitId "1"
+     .UseCopyOnly "False"
+     .UseRelativePath "False"
+     .SetP1 "True", "114.3", "70.87799896", "0.778002" 
+     .SetP2 "True", "114.3", "72.37800104", "0.778002" 
+     .SetInvert "False" 
+     .UseProjection "False" 
+     .ReverseProjection "False" 
+[ENDLUMPED_FACE]
+[DISCRETEEDGE: 3]
+     .Type "SParameter"
+     .Label "Q1_1"
+     .Folder ""
+     .Impedance "50"
+     .Voltage "1"
+     .Current "1"
+     .Monitor "True"
+     .Radius "0"
+     .SetP1 "True", "110.48999999999999", "65.024000000000001", "0.77800200000000008"
+     .SetP2 "True", "110.48999999999999", "63.124001259999993", "0.77800200000000008"
+     .InvertDirection "False"
+     .LocalCoordinates "True"
+     .Wire ""
+     .Position ""
+[ENDDISCRETEEDGE]
+[DISCRETEEDGE: 4]
+     .Type "SParameter"
+     .Label "Q1_3"
+     .Folder ""
+     .Impedance "50"
+     .Voltage "1"
+     .Current "1"
+     .Monitor "True"
+     .Radius "0"
+     .SetP1 "True", "112.49000108", "64.073999360000002", "0.77800200000000008"
+     .SetP2 "True", "110.48999999999999", "63.124001259999993", "0.77800200000000008"
+     .InvertDirection "False"
+     .LocalCoordinates "True"
+     .Wire ""
+     .Position ""
+[ENDDISCRETEEDGE]
+[DISCRETEFACE: 1]
+     .Type "SParameter"
+     .Label "J1_1"
+     .Folder ""
+     .Impedance "50"
+     .VoltageAmplitude "1"
+     .CurrentAmplitude "1.0"
+     .Monitor "True"
+     .CenterEdge "True"
+     .SetP1 "True", "95.504000000000005", "65.024000000000001", "0.57800200000000002"
+     .SetP2 "True", "95.504000000000005", "65.024000000000001", "0.77800200000000008"
+     .LocalCoordinates "False"
+     .InvertDirection "False"
+     .UseProjection "False"
+     .ReverseProjection "False"
+     .FaceType "Linear"
+[ENDDISCRETEFACE]
+[DISCRETEFACE: 2]
+     .Type "SParameter"
+     .Label "J2_1"
+     .Folder ""
+     .Impedance "50"
+     .VoltageAmplitude "1"
+     .CurrentAmplitude "1.0"
+     .Monitor "True"
+     .CenterEdge "True"
+     .SetP1 "True", "130.048", "65.048000459999997", "0.57800200000000002"
+     .SetP2 "True", "130.048", "65.048000459999997", "0.77800200000000008"
+     .LocalCoordinates "False"
+     .InvertDirection "False"
+     .UseProjection "False"
+     .ReverseProjection "False"
+     .FaceType "Linear"
+[ENDDISCRETEFACE]
+[GROUPS]
+Group.Add "meshgroup1", "mesh"
+With MeshSettings
+     With .ItemMeshSettings ("group$meshgroup1")
+          .SetMeshType "Hex"
+          .SetWithVersion "2024.1|33.0.1|20231016", "ConsiderGlobalEdgeRefinement", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "ConsiderGlobalFaceRefinement", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "ConsiderGlobalMaterialRefinement", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "ConsiderGlobalRefinement", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "ConsiderGlobalSnapping", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "EdgeRefinementBufferLines", 3
+          .SetWithVersion "2024.1|33.0.1|20231016", "EdgeRefinementRatio", "1"
+          .SetWithVersion "2024.1|33.0.1|20231016", "EdgeRefinementStep", "0"
+          .SetWithVersion "2024.1|33.0.1|20231016", "EdgeRefinementType", "NONE"
+          .SetWithVersion "2024.1|33.0.1|20231016", "EllipseRefinementNSteps", 2
+          .SetWithVersion "2024.1|33.0.1|20231016", "EllipseRefinementRatio", 2
+          .SetWithVersion "2024.1|33.0.1|20231016", "EllipseRefinementStep", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "EllipseRefinementType", "NONE"
+          .SetWithVersion "2024.1|33.0.1|20231016", "FaceRefinementBufferLines", 3
+          .SetWithVersion "2024.1|33.0.1|20231016", "FaceRefinementNSteps", 2
+          .SetWithVersion "2024.1|33.0.1|20231016", "FaceRefinementRatio", 2
+          .SetWithVersion "2024.1|33.0.1|20231016", "FaceRefinementStep", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "FaceRefinementType", "NONE"
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnappingIntervals", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnappingPriority", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToAxialEdges", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToCylinderCenters", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToCylinders", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToEllipseCenters", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToEllipses", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToObjectBoundaries", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToPlanes", "0"
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToSpheres", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToTori", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapXYZ", "0", "0", "0"
+          .SetWithVersion "2024.1|33.0.1|20231016", "UseMaterialRefinement", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "UseSnappingPriority", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementExtentNumSteps", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementExtentStep", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementExtentType", "NONE"
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementExtentValueUseSameXYZ", 1
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementNumSteps", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementRatio", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementScopeType", "ALL"
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementStep", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementType", "NONE"
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementValueUseSameXYZ", 0
+          .SetMeshType "HexTLM"
+          .SetWithVersion "2024.1|33.0.1|20231016", "ConsiderGlobalEdgeRefinement", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "ConsiderGlobalFaceRefinement", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "ConsiderGlobalMaterialRefinement", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "ConsiderGlobalRefinement", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "ConsiderGlobalSnapping", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "EdgeRefinementBufferLines", 3
+          .SetWithVersion "2024.1|33.0.1|20231016", "EdgeRefinementRatio", "1"
+          .SetWithVersion "2024.1|33.0.1|20231016", "EdgeRefinementStep", "0"
+          .SetWithVersion "2024.1|33.0.1|20231016", "EdgeRefinementType", "NONE"
+          .SetWithVersion "2024.1|33.0.1|20231016", "EllipseRefinementNSteps", 2
+          .SetWithVersion "2024.1|33.0.1|20231016", "EllipseRefinementRatio", 2
+          .SetWithVersion "2024.1|33.0.1|20231016", "EllipseRefinementStep", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "EllipseRefinementType", "NONE"
+          .SetWithVersion "2024.1|33.0.1|20231016", "FaceRefinementBufferLines", 3
+          .SetWithVersion "2024.1|33.0.1|20231016", "FaceRefinementNSteps", 2
+          .SetWithVersion "2024.1|33.0.1|20231016", "FaceRefinementRatio", 2
+          .SetWithVersion "2024.1|33.0.1|20231016", "FaceRefinementStep", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "FaceRefinementType", "NONE"
+          .SetWithVersion "", "IgnoreWireIntersection", 0
+          .SetWithVersion "", "MaxLump", 1e+06
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnappingIntervals", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnappingPriority", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToAxialEdges", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToCylinderCenters", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToCylinders", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToEllipseCenters", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToEllipses", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToObjectBoundaries", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToPlanes", "0"
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToSpheres", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToTori", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapXYZ", "0", "0", "0"
+          .SetWithVersion "2024.1|33.0.1|20231016", "UseMaterialRefinement", 0
+          .SetWithVersion "", "UseMaxLump", "USE_GLOBAL"
+          .SetWithVersion "2024.1|33.0.1|20231016", "UseSnappingPriority", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementExtentNumSteps", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementExtentStep", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementExtentType", "NONE"
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementExtentValueUseSameXYZ", 1
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementNumSteps", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementRatio", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementScopeType", "ALL"
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementStep", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementType", "NONE"
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementValueUseSameXYZ", 0
+          .SetMeshType "CfdNew"
+          .SetWithVersion "", "AbsoluteExtendFar", 0
+          .SetWithVersion "", "AbsoluteExtendNear", 0
+          .SetWithVersion "", "ConsiderGlobalSnapping", 1
+          .SetWithVersion "", "ConsiderMaximumNarrowChannelWidth", 1
+          .SetWithVersion "", "ConsiderMinimumNumNarrowChannelCells", 1
+          .SetWithVersion "", "EnableNarrowChannelRefinement", 0
+          .SetWithVersion "", "ExtendRangePolicy", "RELATIVE"
+          .SetWithVersion "", "MaximumNarrowChannelWidth", 0
+          .SetWithVersion "", "MaximumNumNarrowChannelRefinements", 3
+          .SetWithVersion "", "MinimumNarrowChannelWidth", 0
+          .SetWithVersion "", "MinimumNumNarrowChannelCells", 5
+          .SetWithVersion "", "RefinementLevelFar", 1
+          .SetWithVersion "", "RefinementLevelNear", 2
+          .SetWithVersion "", "RelativeExtendFar", 0
+          .SetWithVersion "", "RelativeExtendNear", 0
+          .SetWithVersion "", "SnappingPriority", 0
+          .SetWithVersion "", "SnapToAxialEdges", 1
+          .SetWithVersion "", "SnapToCylinderCenters", 1
+          .SetWithVersion "", "SnapToCylinders", 1
+          .SetWithVersion "", "SnapToEllipseCenters", 1
+          .SetWithVersion "", "SnapToEllipses", 1
+          .SetWithVersion "", "SnapToObjectBoundaries", 0
+          .SetWithVersion "", "SnapToPlanes", 1
+          .SetWithVersion "", "SnapToSpheres", 1
+          .SetWithVersion "", "SnapToTori", 1
+          .SetWithVersion "", "SnapXYZ", 1, 1, 1
+          .SetWithVersion "", "UseExtendSetting", 0
+          .SetWithVersion "", "UseRefinementLevelSetting", 0
+          .SetWithVersion "", "UseSameRefinementLevelForNearAndFar", 0
+          .SetWithVersion "", "UseSnappingPriority", 0
+          .SetWithVersion "", "VolumeRefinementExtentNumSteps", 0.0762, 0.0762, 0.0762
+          .SetWithVersion "", "VolumeRefinementExtentStep", 0, 0, 0
+          .SetWithVersion "", "VolumeRefinementExtentType", "STEPS_PER_DIM"
+          .SetWithVersion "", "VolumeRefinementExtentValueUseSameXYZ", 1
+          .SetWithVersion "", "VolumeRefinementNumSteps", 0, 0, 0
+          .SetWithVersion "", "VolumeRefinementRatio", 0.0508, 0.0508, 0.0508
+          .SetWithVersion "", "VolumeRefinementScopeType", "INTERIORS"
+          .SetWithVersion "", "VolumeRefinementStep", 0, 0, 0
+          .SetWithVersion "", "VolumeRefinementType", "NONE"
+          .SetWithVersion "", "VolumeRefinementValueUseSameXYZ", 1
+     End With
+End With
+Group.AddItem "solid$ME2_LNA(PCB1)/Nets/GND:01_TOP_LAYER", "meshgroup1"
+Group.AddItem "solid$ME2_LNA(PCB1)/Nets/GND:03_BOTTOM_LAYER", "meshgroup1"
+Group.AddItem "solid$ME2_LNA(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER", "meshgroup1"
+Group.AddItem "solid$ME2_LNA(PCB1)/Nets/NETC1_1:01_TOP_LAYER", "meshgroup1"
+Group.AddItem "solid$ME2_LNA(PCB1)/Nets/NETC1_2:01_TOP_LAYER", "meshgroup1"
+Group.AddItem "solid$ME2_LNA(PCB1)/Nets/NETC3_1:01_TOP_LAYER", "meshgroup1"
+Group.AddItem "solid$ME2_LNA(PCB1)/Nets/NETC3_2:01_TOP_LAYER", "meshgroup1"
+Group.AddItem "solid$ME2_LNA(PCB1)/Nets/NETC6_2:01_TOP_LAYER", "meshgroup1"
+Group.AddItem "solid$ME2_LNA(PCB1)/Nets/NETC7_1:01_TOP_LAYER", "meshgroup1"
+Group.AddItem "solid$ME2_LNA(PCB1)/Nets/NETL2_2:01_TOP_LAYER", "meshgroup1"
+Group.AddItem "solid$ME2_LNA(PCB1)/Nets/VCC:01_TOP_LAYER", "meshgroup1"
+Group.AddItem "solid$ME2_LNA(PCB1)/Nets/VCC:03_BOTTOM_LAYER", "meshgroup1"
+Group.AddItem "solid$ME2_LNA(PCB1)/Nets/VCC:VIA_TOP_LAYER_BOTTOM_LAYER", "meshgroup1"
+Group.AddItem "solid$ME2_LNA(PCB1)/PEC Sheets:PORT_LAYER_0", "meshgroup1"
+Group.AddItem "solid$ME2_LNA(PCB1)/PEC Sheets:PORT_LAYER_1", "meshgroup1"
+Group.AddItem "solid$ME2_LNA(PCB1)/PEC Sheets:leads", "meshgroup1"
+Group.Add "meshgroup2", "mesh"
+With MeshSettings
+     With .ItemMeshSettings ("group$meshgroup2")
+          .SetMeshType "Hex"
+          .SetWithVersion "2024.1|33.0.1|20231016", "ConsiderGlobalEdgeRefinement", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "ConsiderGlobalFaceRefinement", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "ConsiderGlobalMaterialRefinement", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "ConsiderGlobalRefinement", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "ConsiderGlobalSnapping", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "EdgeRefinementBufferLines", 3
+          .SetWithVersion "2024.1|33.0.1|20231016", "EdgeRefinementRatio", "1"
+          .SetWithVersion "2024.1|33.0.1|20231016", "EdgeRefinementStep", "0"
+          .SetWithVersion "2024.1|33.0.1|20231016", "EdgeRefinementType", "NONE"
+          .SetWithVersion "2024.1|33.0.1|20231016", "EllipseRefinementNSteps", 2
+          .SetWithVersion "2024.1|33.0.1|20231016", "EllipseRefinementRatio", 2
+          .SetWithVersion "2024.1|33.0.1|20231016", "EllipseRefinementStep", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "EllipseRefinementType", "NONE"
+          .SetWithVersion "2024.1|33.0.1|20231016", "FaceRefinementBufferLines", 3
+          .SetWithVersion "2024.1|33.0.1|20231016", "FaceRefinementNSteps", 2
+          .SetWithVersion "2024.1|33.0.1|20231016", "FaceRefinementRatio", 2
+          .SetWithVersion "2024.1|33.0.1|20231016", "FaceRefinementStep", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "FaceRefinementType", "NONE"
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnappingIntervals", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnappingPriority", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToAxialEdges", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToCylinderCenters", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToCylinders", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToEllipseCenters", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToEllipses", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToObjectBoundaries", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToPlanes", "1"
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToSpheres", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToTori", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapXYZ", "0", "0", "1"
+          .SetWithVersion "2024.1|33.0.1|20231016", "UseMaterialRefinement", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "UseSnappingPriority", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementExtentNumSteps", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementExtentStep", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementExtentType", "NONE"
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementExtentValueUseSameXYZ", 1
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementNumSteps", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementRatio", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementScopeType", "ALL"
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementStep", 0.254, 0.254, 0.254
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementType", "ABS_VALUE"
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementValueUseSameXYZ", 0
+          .SetMeshType "HexTLM"
+          .SetWithVersion "2024.1|33.0.1|20231016", "ConsiderGlobalEdgeRefinement", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "ConsiderGlobalFaceRefinement", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "ConsiderGlobalMaterialRefinement", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "ConsiderGlobalRefinement", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "ConsiderGlobalSnapping", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "EdgeRefinementBufferLines", 3
+          .SetWithVersion "2024.1|33.0.1|20231016", "EdgeRefinementRatio", "1"
+          .SetWithVersion "2024.1|33.0.1|20231016", "EdgeRefinementStep", "0"
+          .SetWithVersion "2024.1|33.0.1|20231016", "EdgeRefinementType", "NONE"
+          .SetWithVersion "2024.1|33.0.1|20231016", "EllipseRefinementNSteps", 2
+          .SetWithVersion "2024.1|33.0.1|20231016", "EllipseRefinementRatio", 2
+          .SetWithVersion "2024.1|33.0.1|20231016", "EllipseRefinementStep", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "EllipseRefinementType", "NONE"
+          .SetWithVersion "2024.1|33.0.1|20231016", "FaceRefinementBufferLines", 3
+          .SetWithVersion "2024.1|33.0.1|20231016", "FaceRefinementNSteps", 2
+          .SetWithVersion "2024.1|33.0.1|20231016", "FaceRefinementRatio", 2
+          .SetWithVersion "2024.1|33.0.1|20231016", "FaceRefinementStep", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "FaceRefinementType", "NONE"
+          .SetWithVersion "", "IgnoreWireIntersection", 0
+          .SetWithVersion "", "MaxLump", 1e+06
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnappingIntervals", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnappingPriority", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToAxialEdges", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToCylinderCenters", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToCylinders", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToEllipseCenters", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToEllipses", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToObjectBoundaries", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToPlanes", "1"
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToSpheres", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapToTori", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "SnapXYZ", "0", "0", "1"
+          .SetWithVersion "2024.1|33.0.1|20231016", "UseMaterialRefinement", 0
+          .SetWithVersion "", "UseMaxLump", "USE_GLOBAL"
+          .SetWithVersion "2024.1|33.0.1|20231016", "UseSnappingPriority", 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementExtentNumSteps", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementExtentStep", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementExtentType", "NONE"
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementExtentValueUseSameXYZ", 1
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementNumSteps", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementRatio", 0, 0, 0
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementScopeType", "ALL"
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementStep", 0.254, 0.254, 0.254
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementType", "ABS_VALUE"
+          .SetWithVersion "2024.1|33.0.1|20231016", "VolumeRefinementValueUseSameXYZ", 0
+          .SetMeshType "CfdNew"
+          .SetWithVersion "", "AbsoluteExtendFar", 0
+          .SetWithVersion "", "AbsoluteExtendNear", 0
+          .SetWithVersion "", "ConsiderGlobalSnapping", 1
+          .SetWithVersion "", "ConsiderMaximumNarrowChannelWidth", 1
+          .SetWithVersion "", "ConsiderMinimumNumNarrowChannelCells", 1
+          .SetWithVersion "", "EnableNarrowChannelRefinement", 0
+          .SetWithVersion "", "ExtendRangePolicy", "RELATIVE"
+          .SetWithVersion "", "MaximumNarrowChannelWidth", 0
+          .SetWithVersion "", "MaximumNumNarrowChannelRefinements", 3
+          .SetWithVersion "", "MinimumNarrowChannelWidth", 0
+          .SetWithVersion "", "MinimumNumNarrowChannelCells", 5
+          .SetWithVersion "", "RefinementLevelFar", 1
+          .SetWithVersion "", "RefinementLevelNear", 2
+          .SetWithVersion "", "RelativeExtendFar", 0
+          .SetWithVersion "", "RelativeExtendNear", 0
+          .SetWithVersion "", "SnappingPriority", 0
+          .SetWithVersion "", "SnapToAxialEdges", 1
+          .SetWithVersion "", "SnapToCylinderCenters", 1
+          .SetWithVersion "", "SnapToCylinders", 1
+          .SetWithVersion "", "SnapToEllipseCenters", 1
+          .SetWithVersion "", "SnapToEllipses", 1
+          .SetWithVersion "", "SnapToObjectBoundaries", 0
+          .SetWithVersion "", "SnapToPlanes", 1
+          .SetWithVersion "", "SnapToSpheres", 1
+          .SetWithVersion "", "SnapToTori", 1
+          .SetWithVersion "", "SnapXYZ", 1, 1, 1
+          .SetWithVersion "", "UseExtendSetting", 0
+          .SetWithVersion "", "UseRefinementLevelSetting", 0
+          .SetWithVersion "", "UseSameRefinementLevelForNearAndFar", 0
+          .SetWithVersion "", "UseSnappingPriority", 0
+          .SetWithVersion "", "VolumeRefinementExtentNumSteps", 0.0762, 0.0762, 0.0762
+          .SetWithVersion "", "VolumeRefinementExtentStep", 0, 0, 0
+          .SetWithVersion "", "VolumeRefinementExtentType", "STEPS_PER_DIM"
+          .SetWithVersion "", "VolumeRefinementExtentValueUseSameXYZ", 1
+          .SetWithVersion "", "VolumeRefinementNumSteps", 0, 0, 0
+          .SetWithVersion "", "VolumeRefinementRatio", 0.0508, 0.0508, 0.0508
+          .SetWithVersion "", "VolumeRefinementScopeType", "INTERIORS"
+          .SetWithVersion "", "VolumeRefinementStep", 0, 0, 0
+          .SetWithVersion "", "VolumeRefinementType", "NONE"
+          .SetWithVersion "", "VolumeRefinementValueUseSameXYZ", 1
+     End With
+End With
+Group.AddItem "solid$ME2_LNA(PCB1)/Substrates:02_DIELECTRIC_1", "meshgroup2"
+[ENDGROUPS]

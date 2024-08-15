@@ -1,0 +1,17 @@
+Algorithm: Nelder Mead Simplex Algorithm
+
+Number of parameters:  2
+Number of evaluations: 58
+              (solver: 57, reloaded: 1)
+
+Initial goal function value = 16.5066356329
+Best goal function value    = 10.6779518517
+Last goal function value    = 10.6779518517  (reloaded)
+
+Last solver evaluation time = 00:02:55 h
+
+
+Best parameters so far:
+
+ C2 = 3.44484
+ L1 = 7.71827

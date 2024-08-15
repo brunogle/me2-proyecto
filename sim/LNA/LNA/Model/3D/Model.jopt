@@ -1,0 +1,159 @@
+{
+    "Optimizer": {
+        "Goals": [
+            {
+                "Complex Type": "MagLin",
+                "Goal Name": "Result 1DC",
+                "Goal Norm": "MaxDiff",
+                "Goal active": "True",
+                "Operator": "=",
+                "Range From": "1000",
+                "Range To": "1000",
+                "Range Type": "Single",
+                "Result List": [
+                    {
+                        "Data Source": "Solver",
+                        "Treepath": "1D Results\\S-Parameters\\S3,3",
+                        "Type": "1D Complex"
+                    }
+                ],
+                "Target": "0.295",
+                "Target Max": "0.0",
+                "Use Slope": "False",
+                "Weight": "360"
+            },
+            {
+                "Complex Type": "Phase",
+                "Goal Name": "Result 1DC",
+                "Goal Norm": "MaxDiff",
+                "Goal active": "True",
+                "Operator": "=",
+                "Range From": "1000",
+                "Range To": "1000",
+                "Range Type": "Single",
+                "Result List": [
+                    {
+                        "Data Source": "Solver",
+                        "Treepath": "1D Results\\S-Parameters\\S3,3",
+                        "Type": "1D Complex"
+                    }
+                ],
+                "Target": "-154",
+                "Target Max": "0.0",
+                "Use Slope": "False",
+                "Weight": "1.0"
+            }
+        ],
+        "Parameters": {
+            "Parameter List": [
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "47",
+                    "Max Value": "51.7",
+                    "Min Value": "42.3",
+                    "Parameter Name": "C1"
+                },
+                {
+                    "Active": "True",
+                    "Anchors": "5",
+                    "Initial Value": "3.3",
+                    "Max Value": "10",
+                    "Min Value": "1",
+                    "Parameter Name": "C2"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "8.2",
+                    "Max Value": "9.02",
+                    "Min Value": "7.38",
+                    "Parameter Name": "C3"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "1.5",
+                    "Max Value": "1.65",
+                    "Min Value": "1.35",
+                    "Parameter Name": "C4"
+                },
+                {
+                    "Active": "True",
+                    "Anchors": "5",
+                    "Initial Value": "10",
+                    "Max Value": "20",
+                    "Min Value": "5",
+                    "Parameter Name": "L1"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "8.2",
+                    "Max Value": "9.02",
+                    "Min Value": "7.38",
+                    "Parameter Name": "L2"
+                }
+            ],
+            "Range Percentage": "100",
+            "Start From Current": "True"
+        },
+        "Settings": {
+            "CMAES Settings": {
+                "Maximal Iterations": 3000,
+                "Seed": 1,
+                "Sigma": "0.2",
+                "Use External Anchor": "True",
+                "Use Maximal Iterations": "True"
+            },
+            "Classic Powell Settings": {
+                "Accuracy": "0.01"
+            },
+            "General Settings": {
+                "Algorithm Type": "Nelder Mead Simplex Algorithm",
+                "Data Storage Type": "None",
+                "Goal Summary Type": "Sum of all goals",
+                "Move Mesh": "False",
+                "Start Active Solver": "True",
+                "Use Data Of Prev Calculations": "True"
+            },
+            "Genetic Algorithm Settings": {
+                "Generation Size": 32,
+                "Goal Function Level": "0.0",
+                "Initial Distribution": "Latin Hypercube Distribution",
+                "Interpolation": "No Interpolation",
+                "Maximal Iterations": 30,
+                "Mutation Rate": 60,
+                "Seed": 1
+            },
+            "Nelder Mead Simplex Settings": {
+                "Goal Function Level": "0.0",
+                "Initial Distribution": "Noisy Latin Hypercube Distribution",
+                "Maximal Iterations": 250,
+                "Min Simplex Size": "1e-6",
+                "Seed": 1,
+                "Use External Anchor": "True",
+                "Use Maximal Iterations": "False"
+            },
+            "Particle Swarm Settings": {
+                "Generation Size": 30,
+                "Goal Function Level": "0.0",
+                "Initial Distribution": "Latin Hypercube Distribution",
+                "Interpolation": "No Interpolation",
+                "Maximal Iterations": 15,
+                "Seed": 1
+            },
+            "Quasi Newton Settings": {
+                "Refinements": "1"
+            },
+            "Trust Region Settings": {
+                "Domain Accuracy": "0.01",
+                "Finite Differences Delta": "Automatic",
+                "Maximal Iterations": 500,
+                "Sigma": "0.2",
+                "Use Maximal Iterations": "False"
+            }
+        },
+        "Version": 1
+    }
+}

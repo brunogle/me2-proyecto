@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SchematicTopology Version="2.5" Seed="30" Grid="25">
+    <Block Id="1" ForeignId="191255939" Class="MWSSCHEM" ImageIndex="1">
+        <Size Height="225" Width="225"/>
+        <Pins Distribution="TwoSidesDownward">
+            <Pin Index="0" Port="0" BlockPosition="Left">
+                <Label>1(J1_1)<LabelAppearance VerticalMargin="0" RightMargin="0" Color="#000000" LeftMargin="0" Placement="Inside" HorizontalMargin="0" Flags="Right Top">
+                        <Font PointSize="16"/>
+                    </LabelAppearance>
+                </Label>
+            </Pin>
+            <Pin Index="1" Port="1" BlockPosition="Left">
+                <Label>2(J2_1)<LabelAppearance VerticalMargin="0" RightMargin="0" Color="#000000" LeftMargin="0" Placement="Inside" HorizontalMargin="0" Flags="Right Top">
+                        <Font PointSize="16"/>
+                    </LabelAppearance>
+                </Label>
+            </Pin>
+            <Pin Index="0" Port="2" BlockPosition="Right">
+                <Label>3(Q1_1)<LabelAppearance VerticalMargin="0" RightMargin="0" Color="#000000" LeftMargin="0" Placement="Inside" HorizontalMargin="0" Flags="Left Top">
+                        <Font PointSize="16"/>
+                    </LabelAppearance>
+                </Label>
+            </Pin>
+            <Pin Index="1" Port="3" BlockPosition="Right">
+                <Label>4(Q1_3)<LabelAppearance VerticalMargin="0" RightMargin="0" Color="#000000" LeftMargin="0" Placement="Inside" HorizontalMargin="0" Flags="Left Top">
+                        <Font PointSize="16"/>
+                    </LabelAppearance>
+                </Label>
+            </Pin>
+            <Ports>
+                <Port Name="1" Label="J1_1"/>
+                <Port Name="2" Label="J2_1"/>
+                <Port Name="3" Label="Q1_1"/>
+                <Port Name="4" Label="Q1_3"/>
+            </Ports>
+        </Pins>
+        <Image IconPosition="TopRight" FileName="../3D/Model.dib" Scale="AutoFit">
+            <Size Height="256" Width="256"/>
+        </Image>
+        <Pos X="-287.5" Y="-37.5"/>
+        <ToolTip>CST MICROWAVE STUDIO schematic block MWSSCHEM1</ToolTip>
+    </Block>
+    <Block Id="2" ForeignId="169387013" Class="EXTPORT" Flags="NotResizable">
+        <Size Height="50" Width="100"/>
+        <Pins Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Center">
+                <Label>
+                    <LabelAppearance VerticalMargin="0" RightMargin="0" Color="#000000" LeftMargin="0" Placement="Inside" HorizontalMargin="0" Flags="">
+                        <Font PointSize="16"/>
+                    </LabelAppearance>
+                </Label>
+            </Pin>
+            <Ports>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="-650" Y="-75"/>
+        <Label>1</Label>
+        <ToolTip>External Port 1</ToolTip>
+    </Block>
+    <Link Id="3">
+        <Connection Pin="0" Ref="2" Type="Pin"/>
+        <Connection Pin="0" Ref="1" Type="Pin"/>
+        <Route>
+            <Pos X="-600" Y="-75"/>
+            <Pos X="-420" Y="-75"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Block Id="6" ForeignId="1877356808" Class="GEN_2_PIN">
+        <Size Height="150" Width="150"/>
+        <Pos X="150" Y="-75"/>
+        <Label>BFU550A_EXTRAPOLATED_NO_NP</Label>
+        <ToolTip>Generic 2-Pin Device GEN_2_PIN1</ToolTip>
+    </Block>
+    <Block Id="25" ForeignId="633613558" Class="EXTPORT" Flags="NotResizable">
+        <Size Height="50" Width="100"/>
+        <Pins Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Center">
+                <Label>
+                    <LabelAppearance VerticalMargin="0" RightMargin="0" Color="#000000" LeftMargin="0" Placement="Inside" HorizontalMargin="0" Flags="">
+                        <Font PointSize="16"/>
+                    </LabelAppearance>
+                </Label>
+            </Pin>
+            <Ports>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="-650" Y="0"/>
+        <Label>2</Label>
+        <ToolTip>External Port 2</ToolTip>
+    </Block>
+    <Link Id="26">
+        <Connection Pin="0" Ref="25" Type="Pin"/>
+        <Connection Pin="1" Ref="1" Type="Pin"/>
+        <Route>
+            <Pos X="-600" Y="0"/>
+            <Pos X="-420" Y="0"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="29">
+        <Connection Pin="2" Ref="1" Type="Pin"/>
+        <Connection Pin="0" Ref="6" Type="Pin"/>
+        <Route>
+            <Pos X="-155" Y="-75"/>
+            <Pos X="55" Y="-75"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="30">
+        <Connection Pin="1" Ref="6" Type="Pin"/>
+        <Connection Pin="3" Ref="1" Type="Pin"/>
+        <Route>
+            <Pos X="245" Y="-75"/>
+            <Pos X="250" Y="-75"/>
+            <Pos X="250" Y="10"/>
+            <Pos X="-50" Y="10"/>
+            <Pos X="-50" Y="0"/>
+            <Pos X="-155" Y="0"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+</SchematicTopology>

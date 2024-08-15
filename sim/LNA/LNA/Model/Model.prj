@@ -1,0 +1,13 @@
+{
+   "Author": "bruno",
+   "Comment": "",
+   "Last Problem Type": "High Frequency",
+   "Last Solver Type": "HF Frequency Domain",
+   "Last Solver Type Abb": "f",
+   "Mesh Cells": "",
+   "Mesh Type": "Tetrahedral",
+   "Modeler Unique ID": "5:lna.cst?1ad9ff34d7a29d62a31ae5cbc3cad1a1?16010:numberofparameters=6:port=1>mode=1>zre=0>zim=0?port=2>mode=1>zre=0>zim=0?port=3>mode=1>zre=0>zim=0?port=4>mode=1>zre=0>zim=0::me2_lna.ldb.sab>5632865a886ae41cb050a81611fed731>546617:c1?c2?c3?c4?l1?l2",
+   "ProjectVersion": "'# MWS Version: Version 2024.1 - Oct 16 2023 - ACIS 33.0.1 -",
+   "Results": "Unavailable",
+   "Version": "3"
+}

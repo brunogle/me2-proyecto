@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSTAuxiliaryGeometry version="20170928" creator="modeler">
+  <Objects>
+    <Object name="Lumped Elements\ME2_LNA(PCB1):C1" id="20">
+      <FatArrow position="104.5 65 0.778002024" direction="1.34999979 0 0" dimension="10 10 10" material="$WireMaterial$" text="ME2_LNA(PCB1):C1" short="C1"/>
+      <LineSet points="103.824997 65 0.778002024 105.174995 65 0.778002024" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="104.5 64.8375015 0.778002024 104.5 65.1624985 0.778002024" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\ME2_LNA(PCB1):C2" id="19">
+      <FatArrow position="107.442001 63.7540016 0.778002024" direction="0 -1.34999979 0" dimension="10 10 10" material="$WireMaterial$" text="ME2_LNA(PCB1):C2" short="C2"/>
+      <LineSet points="107.442001 64.4290009 0.778002024 107.442001 63.0789986 0.778002024" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="107.279503 63.7540016 0.778002024 107.6045 63.7540016 0.778002024" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\ME2_LNA(PCB1):C3" id="18">
+      <FatArrow position="117.006996 65.0240021 0.778002024" direction="1.34999979 0 0" dimension="10 10 10" material="$WireMaterial$" text="ME2_LNA(PCB1):C3" short="C3"/>
+      <LineSet points="116.332001 65.0240021 0.778002024 117.681999 65.0240021 0.778002024" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="117.006996 64.861496 0.778002024 117.006996 65.1865005 0.778002024" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\ME2_LNA(PCB1):C4" id="17">
+      <FatArrow position="119.379997 64.262001 0.778002024" direction="0 -1.34999979 0" dimension="10 10 10" material="$WireMaterial$" text="ME2_LNA(PCB1):C4" short="C4"/>
+      <LineSet points="119.379997 64.9369965 0.778002024 119.379997 63.5870018 0.778002024" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="119.217499 64.262001 0.778002024 119.542503 64.262001 0.778002024" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\ME2_LNA(PCB1):C5" id="16">
+      <FatArrow position="111.632996 75.9670029 0.778002024" direction="-1.19999754 0 0" dimension="10 10 10" material="$WireMaterial$" text="ME2_LNA(PCB1):C5" short="C5"/>
+      <LineSet points="112.232994 75.9670029 0.778002024 111.032997 75.9670029 0.778002024" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="111.632996 76.1545029 0.778002024 111.632996 75.7795029 0.778002024" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\ME2_LNA(PCB1):C6" id="15">
+      <FatArrow position="104.648003 69.5960007 0.778002024" direction="1.34999979 0 0" dimension="10 10 10" material="$WireMaterial$" text="ME2_LNA(PCB1):C6" short="C6"/>
+      <LineSet points="103.973 69.5960007 0.778002024 105.322998 69.5960007 0.778002024" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="104.648003 69.4247284 0.778002024 104.648003 69.7672729 0.778002024" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\ME2_LNA(PCB1):C7" id="14">
+      <FatArrow position="116.585999 73.1520004 0.778002024" direction="0 1.34999979 0" dimension="10 10 10" material="$WireMaterial$" text="ME2_LNA(PCB1):C7" short="C7"/>
+      <LineSet points="116.585999 72.4769974 0.778002024 116.585999 73.8270035 0.778002024" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="116.748497 73.1520004 0.778002024 116.4235 73.1520004 0.778002024" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\ME2_LNA(PCB1):C8" id="13">
+      <FatArrow position="118.617996 73.1520004 0.778002024" direction="0 1.34999979 0" dimension="10 10 10" material="$WireMaterial$" text="ME2_LNA(PCB1):C8" short="C8"/>
+      <LineSet points="118.617996 72.4769974 0.778002024 118.617996 73.8270035 0.778002024" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="118.780502 73.1520004 0.778002024 118.455498 73.1520004 0.778002024" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\ME2_LNA(PCB1):J3" id="12">
+      <FatArrow position="115.400002 78.1499939 0.778002024" direction="-2.00000119 0 0" dimension="10 10 10" material="$WireMaterial$" text="ME2_LNA(PCB1):J3" short="J3"/>
+      <LineSet points="116.400002 78.1499939 0.778002024 114.400002 78.1499939 0.778002024" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="115.400002 78.4483032 0.778002024 115.400002 77.8516922 0.778002024" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\ME2_LNA(PCB1):L1" id="11">
+      <FatArrow position="107.442001 66.2939987 0.778002024" direction="0 1.32500112 0" dimension="10 10 10" material="$WireMaterial$" text="ME2_LNA(PCB1):L1" short="L1"/>
+      <LineSet points="107.442001 65.6315002 0.778002024 107.442001 66.9564972 0.778002024" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="107.598251 66.2939987 0.778002024 107.285751 66.2939987 0.778002024" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\ME2_LNA(PCB1):L2" id="10">
+      <FatArrow position="114.300003 65.7860031 0.778002024" direction="0 1.32500112 0" dimension="10 10 10" material="$WireMaterial$" text="ME2_LNA(PCB1):L2" short="L2"/>
+      <LineSet points="114.300003 65.123497 0.778002024 114.300003 66.4485016 0.778002024" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="114.456253 65.7860031 0.778002024 114.143753 65.7860031 0.778002024" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\ME2_LNA(PCB1):R1" id="9">
+      <FatArrow position="114.300003 75.1839981 0.778002024" direction="0 1.50000203 0" dimension="10 10 10" material="$WireMaterial$" text="ME2_LNA(PCB1):R1" short="R1"/>
+      <LineSet points="114.300003 74.4339981 0.778002024 114.300003 75.9339981 0.778002024" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="114.499039 75.1839981 0.778002024 114.10096 75.1839981 0.778002024" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\ME2_LNA(PCB1):R2" id="8">
+      <FatArrow position="107.442001 70.3580017 0.778002024" direction="0 1.50000203 0" dimension="10 10 10" material="$WireMaterial$" text="ME2_LNA(PCB1):R2" short="R2"/>
+      <LineSet points="107.442001 69.6080017 0.778002024 107.442001 71.1080017 0.778002024" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="107.635063 70.3580017 0.778002024 107.248932 70.3580017 0.778002024" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\ME2_LNA(PCB1):R3" id="7">
+      <FatArrow position="114.300003 71.6279984 0.778002024" direction="0 1.50000203 0" dimension="10 10 10" material="$WireMaterial$" text="ME2_LNA(PCB1):R3" short="R3"/>
+      <LineSet points="114.300003 70.8779984 0.778002024 114.300003 72.3779984 0.778002024" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="114.499039 71.6279984 0.778002024 114.10096 71.6279984 0.778002024" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Ports\port1 (J1_1)" id="6">
+      <Cone position="95.5039978 65.0240021 0.678002" direction="0 0 0.200000003" dimension="10 10 10" material="$PortMaterial$" text="1: J1_1" short="1"/>
+      <LineSet points="95.5039978 65.0240021 0.578001976 95.5039978 65.0240021 0.778002024" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="95.5039978 64.723999 0.678002 95.5039978 65.3239975 0.678002" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Ports\port2 (J2_1)" id="5">
+      <Cone position="130.048004 65.0480042 0.678002" direction="0 0 0.200000003" dimension="10 10 10" material="$PortMaterial$" text="2: J2_1" short="2"/>
+      <LineSet points="130.048004 65.0480042 0.578001976 130.048004 65.0480042 0.778002024" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="130.048004 64.7480011 0.678002 130.048004 65.3479996 0.678002" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Ports\port3 (Q1_1)" id="1">
+      <Cone position="110.489998 64.0739975 0.778002024" direction="0 -1.89999878 0" dimension="10 10 10" material="$PortMaterial$" text="3: Q1_1" short="3"/>
+    </Object>
+    <Object name="Ports\port4 (Q1_3)" id="0">
+      <Cone position="111.489998 63.598999 0.778002024" direction="-2.00000119 -0.949998081 0" dimension="10 10 10" material="$PortMaterial$" text="4: Q1_3" short="4"/>
+    </Object>
+  </Objects>
+  <Materials/>
+  <Groups/>
+</CSTAuxiliaryGeometry>

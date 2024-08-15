@@ -1,0 +1,19 @@
+FeatureKeywords:string:modeler:construction_info:object_names, la:macromodel, la:macromodel:nmaxthreads:8, modeler:model:anchorpoints, block:type:saved:MWSSCHEM, modeler:model:anchorpoints:saving, modeler:hidfile:unique_ids, modeler:hidfile:diagnostics, SMatrix:DSNBWC:16, DELETERESULTS:M0P0, mesh::background::boolean, meshloading:problem_class_only, mesh:workflow:nru, mesh:workflow:srf2vol, mesh:workflow:boolean, mesh:workflow:boolean:advanced, mesh:workflow:cad2srf, mesh:workflow:cadsurf, acceleration:cpu:4, acceleration:cpudevices:1, solver:hf:fd:task:1, solver:hf:fd:sweep:getlowestfrequency:automatic, monitor:resultfilemap:load, mesh:tet:adaptive:anisotropicedge, source:discrete face port, load:lumped element:discrete face, solver:hf:fd:meshenhancement, la:iterative, la:precond:pdss7, DenseInitDangerousDim, la:parallel_excitation:block, monitor:resultfilemap:save, la:direct, monitor:scaling:peak, solver:hf:fd:sweep:getlowestfrequency:getfmin, solver:hf:fd:samples:33, solver:hf:fd:sampling:linear, background:normal, boundary:open:ConvPML, boundary:open:xmax, boundary:open:xmin, boundary:open:ymax, boundary:open:ymin, boundary:open:zmax, boundary:open:zmin, lineqssolver:setting:acceleratedrestart, load:lumped element:parallel, load:lumped element:serial, material:SI:generalized model, material:SI:lossy metal, material:disp:eps, material:disp:modelnth, material:fd:tdcompatible, material:rho, mesh:tet, mesh:tet:autocurvature, mesh:tet:curved, mesh:tet:curved:3, monitor:3D:freq, monitor:e-field, solver:hf:fd, solver:hf:fd:generalpurpose:tet, solver:hf:fd:order:2, solver:hf:fd:portloss, source:discrete edge port:s-parameter, source:discrete face port:s-parameter, units:Capacitance:pF, units:Conductance:S, units:Current:A, units:Frequency:MHz, units:Inductance:nH, units:Length:mm, units:Resistance:Ohm, units:Temperature:degC, units:Time:ns, units:Voltage:V, solver:pp:sparameter:sensitivityanalysis, solver:pp:sparameter:basicbranch, solver:pp:sparameter:unnorm, solver:pp:sparameter:updatebalance, lineqssolver:setting:auto, lineqssolver:setting:treecotree, mesh:tet:adaptive, visualization:field_plot:default_engine, block:circuit:dispb, block:circuit:dispb:ypar, block:circuit:port, block:impedance:constant, block:solver:standard, block:type:extport, block:type:gen_2_pin, block:type:mwsschem, lineqsolver:size:small:spar, solver:circuit:dense, solver:circuit:parallelization:maximum, solver:circuit:port:constant, solver:circuit:port:real, solver:task:spar:acfallback, solver:task:spar:balance, solver:task:spara, source:circport:impedance, block:type:saved:GEN_2_PIN, solver:task:saved:spara, DELETERESULTS:M000, modeler:variables:rebuild, modeler:variables:fullrebuild, la:macromodel:nmaxthreads:4, solver:hf:fd:samples:34, modeler:history:header_not_parsed, modeler:model:anchorpoints:loading, modeler:load:fastloading, meshline:hex:check_after_loading:default, meshline:hex:handling_legacy:no, solver:hf:fd:samples:31
+LastWorkflowState:string:tetmesh:success
+pcbconverter/InitialFreePhysicalInMB:int:9322
+pcbconverter/MaxResidentSizeInMB:int:30
+pcbconverter/MaxResidentSizeMiB:int:16
+pcbconverter/MinFreePhysicalInMB:int:9284
+solver_hf_tet_fd/InitialFreePhysicalInMB:int:15046
+solver_hf_tet_fd/MaxResidentSizeInMB:int:3998
+solver_hf_tet_fd/MaxResidentSizeMiB:int:3893
+solver_hf_tet_fd/MinFreePhysicalInMB:int:11117
+solver_pp/InitialFreePhysicalInMB:int:14913
+solver_pp/MaxResidentSizeInMB:int:30
+solver_pp/MaxResidentSizeMiB:int:13
+solver_pp/MinFreePhysicalInMB:int:14902
+tetmesh/InitialFreePhysicalInMB:int:15058
+tetmesh/MaxResidentSizeInMB:int:127
+tetmesh/MaxResidentSizeMiB:int:103
+tetmesh/MinFreePhysicalInMB:int:14972
+---
